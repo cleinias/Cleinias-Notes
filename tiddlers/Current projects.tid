@@ -1,0 +1,12 @@
+created: 20251229233909414
+creator: Cleinias
+modified: 20251229234210469
+modifier: Cleinias
+tags: Index
+title: Current projects
+
+This are my current projects:
+
+<$list filter="[tag[Project]]">
+<<currentTiddler>> <br>
+</$list>

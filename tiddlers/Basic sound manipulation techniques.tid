@@ -1,0 +1,22 @@
+created: 20251230043003089
+creator: Cleinias
+modified: 20251230043003089
+modifier: Cleinias
+tags: 
+title: Basic sound manipulation techniques
+
+List of basic, single-sound manipulation techniques (i.e. no
+    "combining, splicing," etc.):
+
+    1.  Change playing rate
+
+    2.  Reverse
+
+    3.  Shape amplitude (with envelopes or not)
+
+    4.  Spectral transforms
+
+    5.  Filter
+
+    See also the unary and binary transformation in the additional
+    *Supercollider* tutorial (in the help files)

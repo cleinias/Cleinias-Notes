@@ -1,0 +1,17 @@
+created: 20251229205752441
+modified: 20251229215716750
+tags: SupCon Reaper Tool
+title: Recording  samples
+type: text/vnd.tiddlywiki
+
+!!How to record samples (REAPER)
+
+  #All samples go into one file, if recorded in the same sonically stable environment (to ease later cleanup)
+
+  # Always record a “silence” patch for later de-noising
+
+  # Use more than one mic, if possible
+
+  # Record into Reaper tracks
+
+  # Save each mic's track to a separate file

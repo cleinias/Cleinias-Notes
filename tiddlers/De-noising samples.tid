@@ -1,0 +1,17 @@
+created: 20251229205810266
+modified: 20251229212408438
+tags: Tool [[RX 11]] SupCon
+title: De-noising samples
+type: text/vnd.tiddlywiki
+
+Denoising samples in [[RX 11]]
+
+  # Duplicate tracks as backup
+
+  # Import tracks into RX11
+
+  # Choose SPECTRAL DE-NOISE filter
+
+  # Let the filter learn the noise to eliminate from the silence patches at the end of the tracks
+
+  # Remove noise and save

@@ -1,0 +1,32 @@
+created: 20251229195048792
+modified: 20251229214946522
+tags: SupCon NeedsExcision NeedsAttention Tool
+title: Sampling overall process
+type: text/vnd.tiddlywiki
+
+!!How to create a Kontakt instrument from samples
+A collection of notes on how to proceed to produce playable 
+samples, partially relevant to field recording as well.
+
+# Plan 
+
+# Record –> [[REAPER]] plus mics
+
+# Denoise –> [[RX 11]] ([[Spectral De-noise]] filter)
+
+# Name, split, and save to individual files –> [[REAPER]]
+
+# Map to keys, fill blanks, tune, balance volumes, add round-robins and effects –> [[KONTAKT]] 
+
+  Details
+
+#[[Plan a recording]]
+#[[Recording  samples]]
+#[[De-noising samples]]
+#[[Naming and splitting samples]]
+#[[Mapping samples to keys]]
+
+  DONE!
+
+This is the basic structure, then you would have to think in terms of GUI, and perhaps controls for some parameters, if effects are desired, for instance. And so on. But this is the basic procedure.
+

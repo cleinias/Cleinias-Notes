@@ -1,0 +1,30 @@
+created: 20251230042703425
+creator: Cleinias
+modified: 20251230042703425
+modifier: Cleinias
+tags: 
+title: SuperCollider and Ardour
+
+"Montage" of tracks/samples, etc is not really what *Supercollider*
+    does best. *Audacity* and/on *Ardour* would probably be better.
+    Hence the possible need to switch to a mixed production setup, with
+    *Supercollider* for sound analysis and manipulation, and
+    *Audacity*/*Ardour* for montage.
+
+    1.  Notice that there is a quark allowing control of *Ardour* from
+        within *Supercollider* using OSC command. It's appropriately
+        called ArdourOSC and seems to work with basic commands. Will
+        need to look into Ardour OSC files to find out which commands
+        are useful. The protocol is actually very simple, so missing
+        commands (if any) are easy to add to the class. It could be used
+        for uploading a sound file to Ardour automatically after
+        processing/filtering, trying out mixing, etc.
+
+    *Ardour* allows any menu command to be controlled via OSC.
+    Common/addExistingAudioFiles allows importing file, ad corresponds
+    to command common_addexistingaudiofiles Need to test.
+
+    Pretty cool, but need to learn *Ardour* first\...
+
+    Tested, does not seem to be working. Other OSC commands work, but
+    not loading files

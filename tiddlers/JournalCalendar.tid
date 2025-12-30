@@ -1,0 +1,20 @@
+created: 20230909122659267
+creator: soren
+es: likely
+modified: 20251229072355306
+modifier: soren
+tags: Index
+title: JournalCalendar
+type: text/vnd.tiddlywiki
+
+<div class="journal-calendar">
+	<<diary "2025" "">>
+	<<diary "2026" "">>
+
+</div>
+
+<style>
+div.journal-calendar {
+	font-size: 80%;
+}
+</style>

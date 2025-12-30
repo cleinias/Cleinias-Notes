@@ -1,0 +1,8 @@
+created: 20251229212943707
+modified: 20251229213428435
+tags: Meta NeedsAttention
+title: Testing dynamic lists on Kontakt
+
+<$list filter="[tag[Reaper]]">
+<<currentTiddler>><br>
+</$list>

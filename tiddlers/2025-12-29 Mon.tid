@@ -1,0 +1,12 @@
+created: 20251229063208013
+modified: 20251229064853281
+tags: Journal
+title: 2025-12-29 Mon
+
+!!Work done today
+
+* I spent the whole day trying to figure out how to set up a viable research journal app. 
+**Tried to use the Latex-based app I had set up in Sardinia an found it hard to use and quite primitive, then,
+** Found a different, python-based LaTeX-oriented app, but it was buggy, and spent the afternoon trying to fix it and to convert it from LaTex- oriented to LyX-oriented, with partial success (LaTeX <--> LyX roundtrip is not 100% reliable, unfortunately)
+** Then, after several web searches, got back to TiddliWiki, and found some exellent tools being developed since the last time I use it, including a full and very well-made [[book | GrokTiddlyWiki]] on it, which is freely downloadable. 
+**Started working on it and and started using the Tiddlywiki template the [[author himself|Soren Bjornstad]] uses. It is this very Tiddlywiki 

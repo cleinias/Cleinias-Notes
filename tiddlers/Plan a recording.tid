@@ -1,0 +1,18 @@
+created: 20251229205714242
+modified: 20251229211504490
+tags: SupCon Tool
+title: Plan a recording
+
+How to plan a recording session 
+
+  # Write description of the basic concept or goal
+
+  # Figure out what to record (objects, instruments, etc.)
+
+  # Figure out how many samples are needed, counting  round-robins, velocity layers, number of notes (e.g. may be go for stacked major or minor thirds (= 3, resp. 4, notes per octave), or just by stacked major fifths). 
+	Use a matrix of this kind, for instance:
+
+|!Object|!Method|!Range|!No. Samples|!Velocity Layers|!Round Robins|!Total|
+|Bass rec.|Minor 3rds|F3-G5|9|1|4|36|
+||||||Total:|36|
+    

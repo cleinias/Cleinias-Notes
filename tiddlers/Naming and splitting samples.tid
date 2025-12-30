@@ -1,0 +1,28 @@
+created: 20251229205830002
+modified: 20251229211609307
+tags: Tool SupCon Reaper
+title: Naming and splitting samples
+
+Naming, splitting and saving samples to individual files in [[REAPER]]
+
+  # //Reimport// de-noised tracks into Reaper
+
+  # //Group// tracks
+
+  # //SPLIT//: find next transient with tab, then split with “s”
+
+  # //SHORTEN// clips, both at the tail and at the head (to allow for the envelope's attack): 
+
+  # //CREATE FADE OUTS//: check out D Hilowitz video https://www.youtube.com/watch?v=B2iEhJcrHxI at 6:17 in.
+
+  # //NAME// THE CLIPS: 
+
+    ## create regions for each clips: reaper action command: “Insert separate region for each selected item”
+
+    ## Pull up the region manager and name each region with the note it represent, plus a serial # for round robins (Db.1, Db.2, etc). 
+			
+  # //EXPORT// the clips:
+
+    ## Pull up Reaper's render matrix, select what to render
+
+    ## Name the folder by tracks' name, choose a convenient filename pattern

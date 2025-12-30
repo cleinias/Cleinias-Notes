@@ -1,0 +1,12 @@
+created: 20251229161303121
+modified: 20251229225230007
+tags: Meta
+title: Various ZK improvements needed
+
+#  I need to find a favIcon  DONE
+#  I need a sorted list of journal entries DONE
+#	 I need to come up with a small set of tags for both the [[SuperConcrete]] and the [[Vehicles]] projects [[TODO]]
+	# Figure out how to add end edit the colored and labeled tags DONE
+	# Add a proper tag for the Vehicles project [[TODO]]
+	# Change ZK's title and favicon to reflect the new, multi-project setup [[TODO]]
+	# Add saving to github (Need to create repo first) [[TODO]]

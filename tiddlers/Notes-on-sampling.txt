@@ -1,0 +1,164 @@
+Notes on sampling overall process
+
+A collection of notes on how to proceed to produce playable 
+samples, partially relevant to field recording as well.
+
+  The general procedure
+
+1. Plan 
+
+2. Record –> REAPER plus mics
+
+3. Denoise –> RX (Spectral De-noise filter)
+
+4. Name, split, and save to individual files –> REAPER
+
+5. Map to keys, fill blanks, tune, balance volumes, add round 
+  robins and effects –> KONTAKT 
+
+  Details
+
+1. Plan 
+
+  (a) Write description of the basic concept or goal
+
+  (b) Figure out what to record (objects, instruments, etc.)
+
+  (c) figure out how many samples are needed, counting 
+    round-robins, velocity layers, number of notes (e.g. may be 
+    go for stacked major or minor thirds (= 3, resp. 4, notes per 
+    octave), or just by stacked major fifths).
+
+    Use a matrix of this kind, for instance:
+
+
+    
++------------+-------------+--------+--------------+------------------+---------------+-------+
+    |  Object    |   Method    | Range  | No. Samples  | Velocity Layers  | Round Robins  | Total |
+    +------------+-------------+--------+--------------+------------------+---------------+-------+
+    +------------+-------------+--------+--------------+------------------+---------------+-------+
+    | Bass rec.  | Minor 3rds  | F3-G5  |      9       |        1         |      4        |  36   |
+    +-------------------------------------------------------------------------------------+-------+
+    |                                                                             Total:  |  36   |
+    +-------------------------------------------------------------------------------------+-------+
+    
+
+2. Record (REAPER)
+
+  (a) All samples go into one file, if recorded in the same 
+    sonically stable environment (to ease later cleanup)
+
+  (b) Always record a “silence” patch for later de-noising
+
+  (c) Use more than one mic, if possible
+
+  (d) Record into Reaper tracks
+
+  (e) Save each mic's track to a separate file
+
+3. Denoise (RX 11)
+
+  (a) Duplicate tracks as backup
+
+  (b) Import tracks into RX11
+
+  (c) Choose SPECTRAL DE-NOISE filter
+
+  (d) Let the filter learn the noise to eliminate from the 
+    silence patches at the end of the tracks
+
+  (e) Remove noise and save
+
+4. Name, split, and save to individual files (REAPER)
+
+  (a) Reimport de-noised tracks into Reaper
+
+  (b) Group tracks
+
+  (c) SPLIT: find next transient with tab, then split with “s”
+
+  (d) SHORTEN clips, both at the tail and at the head (to allow 
+    for the envelope's attack): 
+
+  (e) CREATE FADE OUTS: check out D Hilowitz video https://www.youtube.com/watch?v=B2iEhJcrHxI
+     at 6:17 in.
+
+  (f) NAME THE CLIPS: 
+
+    i. create regions for each clips: reaper action command: “
+      Insert separate region for each selected item”
+
+    ii. Pull up the region manager and name each region with the 
+      note it represent, plus a serial # for round robins (Db.1, 
+      Db.2, etc). 
+
+  (g) EXPORT the clips:
+
+    i. Pull up Reaper's render matrix, select what to render
+
+    ii. Name the folder by tracks' name, choose a convenient 
+      filename pattern
+
+5. Map to keys, fill blanks (KONTAKT)
+
+  (a) CREATE a new instrument in Kontakt
+
+  (b) Open Kontakt's “MAPPING EDITOR” in the new instrument just 
+    created
+
+  (c) NAVIGATE to the saved folders/files
+
+  (d) IF you have round robins, CREATE DUPLICATE GROUPS for how 
+    many round robins you have (4, 5, etc)
+
+  (e) IMPORT the clips into the appropriate groups (all 1's to 
+    group 1, etc.) by:
+
+    i. selecting the relevant files and,
+
+    ii. dragging them into the mapping area (in a random 
+      location)
+
+  (f) AUTOMAP the sample by using the relevant part of the 
+    filename to be the key, e.g “My_instrument_D#_1” gets mapped 
+    to D# and choosing “Set to Single key”
+
+  (g) change the ROOT KEY of all zone to center in Batch tools >> 
+    Move root key to center
+
+  (h) FILL THE GAPS for the missing notes, by selecting all zones 
+    and then “Automap functions >> Auto-spread key ranges by root 
+    key”
+
+    i. The edit the ranges appropriately and perhaps fill in the 
+      gaps
+
+  (i) REMOVE STARTING GAP, by selecting all zones, then opening 
+    the Wave editor and shortening the initial gap
+
+    i. The apply to all samples by –> Cog wheel >> to all 
+      selected zones >> copy current sample - start setting
+
+  (j) SET ROUND ROBINS
+
+    i. Turn on round robins for all the samples
+
+    ii. The give a position to each group in the round robin 
+      chain
+
+  (k) TUNE the samples by starting a tuner plugin on a basic 
+    one-note MIDI loop in REAPER, then adjust both volume and 
+    pitch for each sample
+
+  (l) set the ENVELOPE, by going to the ADSR section of the 
+    instrument and lengthening the tail of very group to match 
+    the the instrument being sampled (or to whatever effect is 
+    desired)
+
+  (m) DONE!
+
+This is the basic structure, then you would have to think in 
+terms of GUI, and perhaps controls for some parameters, if 
+effects are desired, for instance. And so on. But this is the 
+basic procedure.
+

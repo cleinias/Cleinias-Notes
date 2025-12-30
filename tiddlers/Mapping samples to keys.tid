@@ -1,0 +1,42 @@
+created: 20251229205927986
+modified: 20251229212425206
+tags: Tool SupCon Kontakt
+title: Mapping samples to keys
+type: text/vnd.tiddlywiki
+
+How to map to keys, fill blanks ([[KONTAKT]])
+
+  # CREATE a new instrument in Kontakt
+	
+
+  # Open Kontakt's “MAPPING EDITOR” in the new instrument just created
+
+  # NAVIGATE to the saved folders/files
+
+  # IF you have round robins, CREATE DUPLICATE GROUPS for how many round robins you have (4, 5, etc)
+
+  # IMPORT the clips into the appropriate groups (all 1's to group 1, etc.) by:
+
+    ## selecting the relevant files and,## dragging them into the mapping area (in a random location)
+
+  # AUTOMAP the sample by using the relevant part of the filename to be the key, e.g “My_instrument_D#_1” gets mapped to D# and choosing “Set to Single key”
+
+  # change the ROOT KEY of all zone to center in Batch tools >> Move root key to center
+
+  # FILL THE GAPS for the missing notes, by selecting all zones and then “Automap functions >> Auto-spread key ranges by root key”
+
+   ## The edit the ranges appropriately and perhaps fill in the gaps
+
+  # REMOVE STARTING GAP, by selecting all zones, then opening the Wave editor and shortening the initial gap
+
+    ## The apply to all samples by –> Cog wheel >> to all selected zones >> copy current sample - start setting
+
+  # SET ROUND ROBINS
+
+    ## Turn on round robins for all the samples
+
+    ## The give a position to each group in the round robin chain
+
+  # TUNE the samples by starting a tuner plugin on a basic one-note MIDI loop in REAPER, then adjust both volume and pitch for each sample
+
+  # set the ENVELOPE, by going to the ADSR section of the instrument and lengthening the tail of very group to match the the instrument being sampled (or to whatever effect is desired)
