@@ -1,0 +1,11 @@
+caption: TiddlyCollapsible
+created: 20251231060135976
+modified: 20251231061202946
+tags: $:/tags/TextEditor/Snippet Meta
+title: TiddlyCollapsible
+type: text/vnd.tiddlywiki
+
+<$details summary="Summary goes here">
+
+
+</$details>

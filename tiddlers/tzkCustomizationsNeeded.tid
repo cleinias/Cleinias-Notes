@@ -1,0 +1,17 @@
+created: 20251230231752962
+modified: 20251230232614703
+tags: Meta NeedsAttention
+title: tzkCustomizationsNeeded
+type: text/vnd.tiddlywiki
+
+!!List of the customizations and general cleanup I need
+# Create an opening page with:
+## A one-liner Welcome, perhaps with the icon of Cleinias the cat
+## A list of projects
+## A collapsible sublist of  TODO items for each projects 
+# Change size of the font used in the published tiddlers
+# Remove all of Soren B.'s unused tiddlers, and do a general clean-up of the site, removing many tiddler I don't need, categories I don't use, and so on.
+# Customize types with specific templates along the lines of the [[Zettelkasten type cards guidelines|ZettelkastenCardType]] used by the author, but before you do that, you need to:
+## Reflect upon the basic type of (broadly conceived) research activities you carry out on a daily basis, as I started to approach the issue in the journal entry of [[2025-12-29 Monday]].
+## This will also lead me to develop specific dynamic lists to keep track of what I have done/am doing/need to do
+# Print out a list of shortcuts, and perhaps start changing them to align thme with mine in LyX

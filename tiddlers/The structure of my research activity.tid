@@ -1,10 +1,56 @@
 created: 20251230061923207
 creator: Cleinias
-modified: 20251230063153707
+modified: 20251231072302016
 modifier: Cleinias
 tags: Idea NeedsAttention
 title: The structure of my research activity
+type: text/vnd.tiddlywiki
 
 Need to reflect upon the various meta-categories of my activity. Where to start?
 
-* List of the concrete activities I carry out. Be specific 
+! List of the concrete activities I carry out. Be specific.
+# Reading [Books|articles|etc.]
+# Taking notes while reading
+# Taking notes about new ideas or correcting old ideas
+# Searching for stuff online or on paper
+# Searching for bib references---i.e. for literature
+# Writing
+# Planning to write (writing down notes on what I need to write or about what I have written and need to fix or rewrite)
+# Writing code 
+# Recording (future activity...)
+# Meta-activities:
+## Organizing stuff?
+## Participating in meetings/workshop
+## Working on this wiki?
+!! Preliminary list of categories and the activities they (may) subsume
+* //''Comment''// (or Notecard) --> This is an equivalent of my dear old notecards. It subsumes:
+** 2 above, taking notes
+** 3 above,  same
+** 7 above
+** Needs to always include a link to the text or idea commented about in order to be found later
+** May want to look back at my notecards structure and also back to Eco's book for inspiration
+* //''Task''//
+** This category is organizational, i.e it pertains not so much to note-taking as to project management: it groups together activities that need to be done
+** It will have:
+***a field indicating the //status// (perhaps on a 1 to 10 or 1 to 5 scale) as a dropdown (look how it's done)
+*** Perhaps a field indicating the "Urgency" (1 to 5 scale)
+***and a set of //resources// to rely upon, 
+***and a //goal// or a //result// or a //deliverable// (hate the word...)
+***it may have sub-tasks, probably better indicated with simple links to other tasks (we don't want to get into Gantt charts, do we?)
+*** There is a project-managemet plugin for TW5, called Projectify, which however does not install, it seems.
+*** May be easier to just have a tag "Task" and either a tag "Done" or the value field mentioned above
+* //''Result''//
+** This category is descriptive: it describes the result of an activity, I guess, or in other words the //outcome// of a //task//
+** It would be great to have a "typed link," as it were that could link a task to an activity as of "type=result," but perhaps it could be approximated by having all "Task" tagged tiddler to have a "Results field and then putting one (or more, i.e. a list of) links to tiddlers in the field. Or perhaps just the tiddlers' titles would go there?  This is a test: [[TaskWithResultField]]
+* //''Project''//
+** This is just a category used to partition all the notes into different subsets
+** Not completely sure how to use it yet, except that I do need a tag for every single project (not a tiddler of category project). So perhaps the //Project// tiddler would just be a kind of metatag, as it were, i.e. a tiddler describig the project and perhaps listing the tasks at hand and the results achieved 
+! Tzk types I can reuse (but may have to modify)
+* //''Source''//
+**Modify on the basis of bibtex fields (started buit to be completed)
+* //''Project''//
+** Modify as per above
+* ''//PAO//'' 
+* Place? (I doubt it)
+* TO BE COMPLETED...
+
