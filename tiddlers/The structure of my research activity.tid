@@ -1,6 +1,6 @@
 created: 20251230061923207
 creator: Cleinias
-modified: 20251231072302016
+modified: 20260101003211851
 modifier: Cleinias
 tags: Idea NeedsAttention
 title: The structure of my research activity
@@ -9,21 +9,24 @@ type: text/vnd.tiddlywiki
 Need to reflect upon the various meta-categories of my activity. Where to start?
 
 ! List of the concrete activities I carry out. Be specific.
-# Reading [Books|articles|etc.]
-# Taking notes while reading
-# Taking notes about new ideas or correcting old ideas
-# Searching for stuff online or on paper
-# Searching for bib references---i.e. for literature
-# Writing
-# Planning to write (writing down notes on what I need to write or about what I have written and need to fix or rewrite)
-# Writing code 
-# Recording (future activity...)
-# Meta-activities:
-## Organizing stuff?
-## Participating in meetings/workshop
-## Working on this wiki?
+| Activity | Tiddler's type | //tzk// type |
+|Reading [Books,articles,etc.]| Card? Source? | ? |
+|Taking notes while reading| Card | Idea |
+|Taking notes about new ideas or correcting old ideas| Card | Idea |
+|Searching for stuff online or on paper| ? | ? |
+|Writing| Task? | ? |
+|Searching for bib references---i.e. for literature|  Source? | ? |
+|Planning to write (writing down notes on what I need to write or about what I have written and need to fix or rewrite)| Task | ? |
+|Writing code | Task or Card | Idea |
+|Recording (future activity...)| Card or/and  Attachment | Idea |
+
+Meta-activities:
+
+|Organizing stuff?| Task (if fut. or.) or Card (if done) | ? |
+|Participating in meetings/workshop| ? | ? |
+|Working on this wiki?| Meta | Meta |
 !! Preliminary list of categories and the activities they (may) subsume
-* //''Comment''// (or Notecard) --> This is an equivalent of my dear old notecards. It subsumes:
+* //''Card''// (or Notecard) --> This is an equivalent of my dear old notecards. It subsumes:
 ** 2 above, taking notes
 ** 3 above,  same
 ** 7 above
@@ -33,24 +36,39 @@ Need to reflect upon the various meta-categories of my activity. Where to start?
 ** This category is organizational, i.e it pertains not so much to note-taking as to project management: it groups together activities that need to be done
 ** It will have:
 ***a field indicating the //status// (perhaps on a 1 to 10 or 1 to 5 scale) as a dropdown (look how it's done)
-*** Perhaps a field indicating the "Urgency" (1 to 5 scale)
+***Perhaps a field indicating the "Urgency" (1 to 5 scale)
 ***and a set of //resources// to rely upon, 
 ***and a //goal// or a //result// or a //deliverable// (hate the word...)
 ***it may have sub-tasks, probably better indicated with simple links to other tasks (we don't want to get into Gantt charts, do we?)
-*** There is a project-managemet plugin for TW5, called Projectify, which however does not install, it seems.
+*** There is a project-managemet plugin for TW5, called Projectify, which however may bee overshooting.
 *** May be easier to just have a tag "Task" and either a tag "Done" or the value field mentioned above
 * //''Result''//
 ** This category is descriptive: it describes the result of an activity, I guess, or in other words the //outcome// of a //task//
-** It would be great to have a "typed link," as it were that could link a task to an activity as of "type=result," but perhaps it could be approximated by having all "Task" tagged tiddler to have a "Results field and then putting one (or more, i.e. a list of) links to tiddlers in the field. Or perhaps just the tiddlers' titles would go there?  This is a test: [[TaskWithResultField]]
+** It would be great to have a "typed link," as it were that could link a task to an activity as of "type=result," but:
+***it can be approximated by having all "Task" tagged tiddler to have a "results" field and then putting one (or more, i.e. a list of)  tiddlers' titles in the field?  This is a test: [[TaskWithResultField]]. Notice that tiddlers' titles in a list must be enclosed in //double// square brackets if containing spaces (as is indeed the case for the second results in the [[TaskWithResultField]] test).
+*** a similar goal could also be approximately achieved by having the task list all the tiddlers tagged "Result" and with back references to the current task. This possibility as well is demonstrated in [[TaskWithResultField]].
+*** Of course the relationship Task/Result works both ways, so it could also be done by having a field "tasks" in the tiddler tagged "Result" and using backrefs from a specific "Task" (i.e. solution 2 above). It just depends on what is easier to maintain
 * //''Project''//
 ** This is just a category used to partition all the notes into different subsets
-** Not completely sure how to use it yet, except that I do need a tag for every single project (not a tiddler of category project). So perhaps the //Project// tiddler would just be a kind of metatag, as it were, i.e. a tiddler describig the project and perhaps listing the tasks at hand and the results achieved 
+** Not completely sure how to use it yet, except that I do need a tag for every single project (not a tiddler of category project). So perhaps the //Project// tiddler would just be a kind of metatag, as it were, i.e. a tiddler describig the project and perhaps listing (withthe same mechanism(s) listed above for the "Result" type):
+***the tasks at hand
+***and the results achieved 
+* ''//Outcome//''
+** This is a high-level result, which I need to keep separate from the intermediate results in order to make clear what a project is or will deliver. In other words, an //Outcome// is a goal of a //Project//. This type is indeed equivalent to  [[tzk]]'s ''//Sink//'', which I will therefore adopt and repurpose.  
 ! Tzk types I can reuse (but may have to modify)
 * //''Source''//
-**Modify on the basis of bibtex fields (started buit to be completed)
+**Modify on the basis of bibtex fields (started but to be completed)
 * //''Project''//
 ** Modify as per above
 * ''//PAO//'' 
 * Place? (I doubt it)
 * TO BE COMPLETED...
 
+! How to proceed to create a new type or modify existing ones
+* Create a new type as detailed in [[How to create a new type]]
+* Create a new template as detailed in [[How to create a type template]]
+* Make sure the new type is properly recognized and adequately described in [[CleiniasNotesTypes]]
+!! If modifying an existing type:
+* Modify the type description in its tiddler
+* Modify the template accordingly
+* Do a search (and replace) throughout ''tzk'' to make sure theere are no dangling instances

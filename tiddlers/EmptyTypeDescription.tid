@@ -1,0 +1,30 @@
+caption: A single source of ideas, such as a blog post, book, or musical work. Sources may be part of a [[Bibliography]] and are typically referenced by [[Card]]s.
+color: #ff0000
+created: 20251231231712555
+creator: soren
+icon: $:/core/images/tag-button
+modified: 20260101070424784
+modifier: soren
+refexplorer-hide: false
+tags: Idea
+title: EmptyTypeDescription
+type: text/vnd.tiddlywiki
+
+{{!!caption}}
+
+{{SorenSourceInfo}}
+
+
+!! Naming
+
+[Naming conventions go here]
+
+
+!! Fields
+
+[Types that need to  to be reformatted, displayed in tables, searched in complex ways, and so on,  should have a significant amount of metadata attached in fields.
+
+List them here]
+
+; [field name]
+: [field description]

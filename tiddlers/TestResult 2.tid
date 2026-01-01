@@ -1,0 +1,7 @@
+created: 20251231180729222
+modified: 20251231185035711
+tags: Result
+title: TestResult 2
+type: text/vnd.tiddlywiki
+
+This is a test result, that will be linked to from a task, and in particular from [[TaskWithResultField]]

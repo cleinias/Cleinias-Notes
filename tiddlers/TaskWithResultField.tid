@@ -1,0 +1,26 @@
+created: 20251231172443691
+modified: 20260101055544945
+results: TestResult [[TestResult 2]]
+tags: Meta
+title: TaskWithResultField
+type: text/vnd.tiddlywiki
+
+This is a sample task with some tiddler in a "results" field that lists  the results achieved with this task. The same mechanism of incllusion/transclusion can be used for Project including a list of Tasks
+
+*With transclusion of this tiddler's own "results" field:
+
+** results: {{!!results}}
+*with a list of backreferences to this tiddler from the tiddlers tagged "Result" and a little formatting:
+**results: <ul>
+                  <$list filter="[all[current]backlinks[]tag[Result]]">
+                	  <li>
+										   <$link !!caption/>
+										</li>
+									</$list>
+								</ul>
+	
+
+
+
+
+

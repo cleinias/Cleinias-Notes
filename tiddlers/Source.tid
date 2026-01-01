@@ -1,9 +1,9 @@
-caption: A single source of ideas, such as a blog post, book, or musical work. Sources may be part of [[Publication]]s or [[Class]]es.
+caption: A single source of ideas, such as a blog post, book, or musical work. Sources may be part of a //[[Bibliography]]// and are typically referenced by [[Card]]s.
 color: #ff0000
 created: 20200115231452835
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20210920171016829
+modified: 20260101001211481
 modifier: soren
 refexplorer-hide: true
 tags: Meta Public
@@ -11,8 +11,6 @@ title: Source
 type: text/vnd.tiddlywiki
 
 {{!!caption}}
-
-{{SorenSourceInfo}}
 
 
 !! Naming

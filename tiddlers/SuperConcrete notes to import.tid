@@ -1,6 +1,6 @@
 created: 20251229230619831
 creator: Cleinias
-modified: 20251230041604260
+modified: 20251231172052876
 modifier: Cleinias
 tags: NeedsAttention Notes SupCon
 title: SuperConcrete notes to import
@@ -9,15 +9,14 @@ type: text/vnd.tiddlywiki
 A list of notes that needs to be imported (and probably split beforehand ) for the [[SuperConcrete]] project.
 
 * Manuscript notes on Schaffer's tables (from [[Chion]] and [[Schaeffer]])
-* 9/27/2025 research diary [[TODO]]
-*  12/28/2025 research diary [[TODO]] (perhaps?)
+* 9/27/2025 research diary --> [[2025-09-27 Saturday]]
 *  All the bibref imported from music-biblio.bib needs to be fixed [[TODO]]
 ** Check if the file References-to-convert-into-bib-file.lyx has different ones
 * Other eventual references listed...where? [[TODO]]
 * The list of music pieces put together by Chion for his little //Que-sais-je?// book and listed in Chion-musical-bibliography-1948-1980.lyx [[TODO]]
-* Scattered-Notes.lyx [[TODO]]
-* Notes-on-Schaeffer-and-Chion.lyx [[TODO]]
-* Project-update-September-2025.lyx [[TODO]]
+* Scattered-Notes.lyx DONE --> [[Scattered Notes on the //Superconcrete// project]]
+* Notes-on-Schaeffer-and-Chion.lyx --> NOTHING TO DO, FILE IS BLANK
+* Project-update-September-2025.lyx DONE --> [[Project update September 2025]]
 *	General-note-on-structure.lyx DONE --> [[SuperConcrete book's general structure]]
 * Need to work on the book's introduction and turn it into a series of smaller chunks [[TODO]]
 

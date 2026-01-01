@@ -1,9 +1,9 @@
 caption: A [[metasource|Metasource]] representing a class or course which uses multiple [[Source]]s.
-color: #ff0000
+color: #921082
 created: 20200312153108522
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20230405211410333
+modified: 20251231231147831
 modifier: soren
 tags: Meta Public
 title: Class

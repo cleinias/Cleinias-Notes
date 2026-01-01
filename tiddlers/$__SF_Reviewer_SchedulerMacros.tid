@@ -1,0 +1,16 @@
+created: 20260101052114162
+modified: 20260101055501337
+tags: $:/tags/Macro
+title: $:/SF/Reviewer/SchedulerMacros
+type: text/vnd.tiddlywiki
+
+\define task-status-selector()
+	<$select field="taskstatus" default="0">
+		<option value="0">0</option>
+		<option value="20%">20%</option>
+		<option value="40%">40%</option>
+		<option value="60%">60%</option>
+		<option value="80%">80</option>
+		<option value="Done">Done</option>
+	</$select>
+\end

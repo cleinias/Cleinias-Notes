@@ -1,0 +1,9 @@
+created: 20260101003224474
+modified: 20260101055211183
+tags: Meta
+title: How to create a type template
+type: text/vnd.tiddlywiki
+
+# Look at existing templates for inspiration. For instance, look at the template for [[Source]], namely, this one: [[$:/sib/Templates/Automatic/Source]], transcluded below:
+
+{{$:/sib/Templates/Automatic/Source:text}}

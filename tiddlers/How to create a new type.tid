@@ -1,0 +1,10 @@
+created: 20260101000435951
+modified: 20260101002649568
+tags: Meta
+title: How to create a new type
+type: text/vnd.tiddlywiki
+
+#Create a tiddler with the new type's name as title by cloning [[EmptyTypeDescription]]
+# make sure it is tagged ''Meta'', and make sure it has the proper color (//#ff0000//) and proper image tag ($:/core/images/tag-button). Color and label's image are used in transcluding, so are crucial.
+# Fill in the //Naming conventions// and //Fields// section of the tiddler.
+# Write the template to be used when creating a new instance of the type 

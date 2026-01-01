@@ -1,10 +1,10 @@
 caption: The core of the Zettelkasten. Ideas are tiddlers that describe some concept, thought, lesson, or similar topic.
-color: #ff0000
+color: #921082
 created: 20210721004110425
 creator: soren
 description: 
 icon: $:/core/images/tag-button
-modified: 20210825160340787
+modified: 20251231230828486
 modifier: soren
 refexplorer-hide: true
 tags: Public Meta
