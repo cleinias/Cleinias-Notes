@@ -1,0 +1,10 @@
+created: 20260102181430065
+modified: 20260102182005206
+tags: Journal
+title: 2026-01-02 Friday
+type: text/vnd.tiddlywiki
+
+!!Work Done
+
+* Completed writing the basic types for the minimal project mgmt system: [[Project]], [[Task]], [[Outcome]], and [[Card]]
+** Will still need to fine tune the ''Card'''s fields, though, in particular the epistemic status

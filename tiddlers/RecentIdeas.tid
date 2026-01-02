@@ -1,6 +1,6 @@
 created: 20220909162241485
 creator: soren
-modified: 20231023141953903
+modified: 20260102181647112
 modifier: soren
 tags: Tool Public
 title: RecentIdeas
@@ -17,7 +17,7 @@ See 100 published Ideas most recently:&ensp;
 			<th>Idea</th>
 			<th>Tags</th>
 		</tr>
-		<$list filter="[tag[Idea]tag[Public]!search:title[/]!tag[Software]!sort{$:/temp/RecentListSortField}limit[100]]">
+		<$list filter="[tag[Card]tag[Public]!search:title[/]!tag[Software]!sort{$:/temp/RecentListSortField}limit[100]]">
 		<tr>
 			<td><$view format="date" template="YYYY/0MM/0DD" field={{$:/temp/RecentListSortField}}/></td>
 			<td><$link /><$list filter="[{!!description}!is[blank]]" variable=_>:</$list> {{!!description}}</td>

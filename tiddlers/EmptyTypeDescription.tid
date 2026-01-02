@@ -1,12 +1,12 @@
-caption: A single source of ideas, such as a blog post, book, or musical work. Sources may be part of a [[Bibliography]] and are typically referenced by [[Card]]s.
+caption: A single source of ideas, such as a blog post, book, or musical work. Sources may be part of a [[Bibliography]] and are typically referenced by [[Card-Old]]s.
 color: #ff0000
 created: 20251231231712555
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20260101170538060
+modified: 20260102181647108
 modifier: soren
 refexplorer-hide: false
-tags: Idea
+tags: Card
 title: EmptyTypeDescription
 type: text/vnd.tiddlywiki
 

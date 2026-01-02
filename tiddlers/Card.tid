@@ -1,0 +1,23 @@
+caption: The core of CleniasNotes Zettelkasten. Cards are tiddlers that describe some source, concept, thought, or similar topic.
+color: #ff0000
+created: 20210721004110425
+creator: soren
+description: 
+icon: $:/core/images/tag-button
+modified: 20260102181849055
+modifier: soren
+refexplorer-hide: true
+tags: Public Meta
+title: Card
+type: text/vnd.tiddlywiki
+
+{{!!caption}}
+
+!! Fields
+
+; description
+: When possible, the main idea of a Card should be summed up into a sentence or two and placed in the `description` field. This be displayed next to a gem icon underneath the tiddler's title, and it will appear in a tooltip when you hover over the tiddler in the ReferenceExplorer. (If no `description` field is available, a short excerpt of the beginning of the tiddler is shown in this tooltip.)
+; es
+: The [[epistemic status|EpistemicStatuses]] of this Card, if one is appropriate. This may be chosen from the drop-down in the upper-right of the tiddler in view mode.
+; source
+: If this idea has a ''Source'' strongly associated with it (for instance, a book or article the Card summarizes or comments upon), it may be placed here.

@@ -1,5 +1,5 @@
 created: 20260101052114162
-modified: 20260102062122739
+modified: 20260102171641705
 tags: $:/tags/Macro
 title: $:/SF/Reviewer/SchedulerMacros
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 \end
 
 \define project-status-selector()
-	<$select field="projectstatus" default="0">
+	<$select field="projectstatus" default="Not started yet">
 		<option value="Not started yet">Not started yet</option>
 		<option value="In progress">In progress</option>
 		<option value="Almost done">Almost done</option>

@@ -1,5 +1,5 @@
 created: 20260102065355699
-modified: 20260102070211453
+modified: 20260102170020170
 tags: Journal
 title: 2026-01-01 Thursday
 type: text/vnd.tiddlywiki
@@ -8,6 +8,6 @@ type: text/vnd.tiddlywiki
 
 Continued working on the site but unfortunately encountered a stumbliong block when making the template for projects, which I intended to have two block with a list each: 'Completed tasks' and 'Pending tasks', similar to what I did yesterday for the 'Task' template. Unfortunately, I cannot get the second list to work, no matter what I try, and I do not understand why. 
 
-I think I have finally understood that the problem lies in Tiddlywiki's ViewTemplate mechanism, but I can't figure out the reson. Everyting after the first list is ignored, even simple text. 
+I think I have finally understood that the problem lies in Tiddlywiki's ViewTemplate mechanism, but I can't figure out the reason. Everything after the first list is ignored, even simple text. 
 
 UPDATE at 1 am: problem solved by having 2 separate templates for the two lists. Beats me why it is so, but it works. Also, I only figured out the solution (more like a hack, really) after reading the ViewTemplate section of the Grok Tiddlywiki book, which explained quite well how the template system works.

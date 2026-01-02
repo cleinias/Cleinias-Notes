@@ -1,7 +1,7 @@
-condition: [all[current]has[icon]]~[[$:/config/DefaultTiddlerIcon]has[text]] ~[all[current]tag[PAO]] ~[all[current]tag[Place]] ~[all[current]tag[Idea]] ~[all[current]tag[Source]]  ~[all[current]tag[Sink]] ~[all[current]tag[Journal]]
+condition: [all[current]has[icon]]~[[$:/config/DefaultTiddlerIcon]has[text]] ~[all[current]tag[PAO]] ~[all[current]tag[Place]] ~[all[current]tag[Card]] ~[all[current]tag[Source]]  ~[all[current]tag[Sink]] ~[all[current]tag[Journal]]
 created: 20230407013552037
 creator: soren
-modified: 20251229230229956
+modified: 20260102181647104
 modifier: soren
 tags: 
 title: $:/sib/Templates/Automatic/TiddlerTypeIcon
@@ -37,7 +37,7 @@ type: text/vnd.tiddlywiki
 </$list>
 
 <!-- Idea -->
-<$list filter="[all[current]tag[Idea]]" variable=_>
+<$list filter="[all[current]tag[Card]]" variable=_>
 	<i class="far fa-lightbulb" style="font-size: 80%; position: relative; top: 0.2em; transform: translateY(-50%); margin-right: 0.1em;"/>
 </$list>
 

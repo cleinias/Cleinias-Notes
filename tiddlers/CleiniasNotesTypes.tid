@@ -1,15 +1,15 @@
 created: 20251231225300959
 creator: soren
 description: What types of tiddlers are used within Cleinias Notes Zettelkasten?
-modified: 20260101070001312
+modified: 20260102164525691
 modifier: soren
 tags: Meta
 title: CleiniasNotesTypes
 type: text/vnd.tiddlywiki
 
-''//Cleinias Notes//'' has tiddlers (also “cards”, or “Zettel” in ZK terminology) of a number of defined //types//. //Cards// are the system's //raison d'être//, but the other types are useful because they help to put ideas in context and link them together (e.g., what other ideas did this person have or were found in this source?). Types are identified by the red tags with tag icons next to them.
+''//Cleinias Notes//'' has tiddlers (also “notecards”, or “Zettel” in ZK terminology) of a number of defined //types//. //Notecards// are the system's //raison d'être//, but the other types are useful because they help to put ideas in context and link them together (e.g., what other ideas did this person have or were found in this source?). Types are identified by the red tags with tag icons next to them.
 
-Click on a type to learn more about what it's used for, its naming conventions, and the fields that should be used on tiddlers of that type.
+Click on a type to learn more about what it is for, its naming conventions, and the fields that should be used on tiddlers of that type.
 
 <ul>
 	<$list filter="[color[#ff0000]!has[draft.of]icon[$:/core/images/tag-button]sort[title]]">
@@ -20,6 +20,6 @@ Click on a type to learn more about what it's used for, its naming conventions, 
 !! Here is a list of the original //tzk// types to be erased or repurposed or renamed
 <ul>
 	<$list filter="[color[#921082]!has[draft.of]icon[$:/core/images/tag-button]sort[title]]">
-		<li><$link>{{!!title}}</$link><$list filter="[all[current]!tag[Public]]" emptyMessage=""> (private)</$list>: {{!!caption}}</li>
+		<li><$link>{{!!title}}</$link><$list filter="[all[current]!tag[Public]]" emptyMessage=""> (private) </$list>: {{!!caption}}</li>
 	</$list>
 </ul>

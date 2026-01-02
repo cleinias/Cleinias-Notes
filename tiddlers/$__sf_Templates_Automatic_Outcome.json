@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20260102170224596",
+        "text": "<% if [all[current]tag[Outcome]] %>\n\n\n\n<table class=\"sourceDeetsTable\">\n\t<tr>\n\t\t<th>From project:</th>\n\t\t<td>{{!!from-project}}</td>\n\t</tr>\n\t<tr>\n\t\t<th>Status</th>\n\t\t<td>\n\t\t\t<<outcome-type-selector>>\n\t\t\t<$list filter=\"[all[current]!outcome-type[In progress]]\">\n\t\t\t\ton <$view field=\"completed\" format=\"date\" template=\"mmm 0DD YYYY\"/>\n\t\t\t</$list>\n\t\t</td>\n\t</tr>\n</table>\n<style>\n.sourceDeetsTable tr th {\n\ttext-align: right;\n}\n</style>\n\n<% endif %>\n\n",
+        "title": "$:/sf/Templates/Automatic/Outcome",
+        "creator": "soren",
+        "modified": "20260102171854097",
+        "modifier": "Cleinias",
+        "tags": "$:/tags/ViewTemplate",
+        "type": "text/vnd.tiddlywiki",
+        "description": "Display a table of fields and other information about the Outcome described by this tiddler.",
+        "transcludedin": "All tiddlers tagged <<tag Outcome>> "
+    }
+]

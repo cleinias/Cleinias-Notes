@@ -1,0 +1,21 @@
+created: 20260102165035845
+modified: 20260102171708187
+tags: $:/tags/Macro
+title: $:/SF/Reviewer/TypesFieldsMacros
+type: text/vnd.tiddlywiki
+
+<!-- A few macros helping select the predefined values of the fields of some types-->
+
+
+<!-- The types of possible Outcomes-->
+\define outcome-type-selector()
+	<$select field="outcome-type" default="In progress">
+		<option value="In progress">In progress</option>
+		<option value="Print">Print</option>
+		<option value="Under review">Under review</option>
+		<option value="Talk">Talk</option>
+		<option value="e-Print">e-Print</option>
+		<option value="Software">Software</option>
+		<option value="Other">Other</option>
+	</$select>
+\end

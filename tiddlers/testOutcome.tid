@@ -1,0 +1,10 @@
+caption: I am just a test Outcome
+created: 20260102170946135
+from-project: TestProject
+modified: 20260102175101369
+outcome-type: In progress
+tags: Outcome
+title: testOutcome
+type: text/vnd.tiddlywiki
+
+{{!!from-project}} here is a link to [[TestProject]]

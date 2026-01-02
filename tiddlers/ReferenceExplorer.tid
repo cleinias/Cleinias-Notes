@@ -1,6 +1,6 @@
 created: 20200410133657263
 creator: soren
-modified: 20210920192218164
+modified: 20260102181647113
 modifier: soren
 tags: Meta Public
 title: ReferenceExplorer
@@ -12,7 +12,7 @@ Only the tabs that have at least one item on them for the current tiddler will b
 
 The possible tabs are as follows:
 
-* [[Ideas|Idea]]
+* [[Ideas|Card]]
 * People ([[PAO]] tag)
 * [[Places|Place]]
 * [[Sources|Source]] (and [[Metasources|Metasource]])

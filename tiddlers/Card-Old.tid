@@ -1,0 +1,16 @@
+created: 20260102180316815
+modified: 20260102181240714
+tags: Meta
+title: Card-Old
+type: text/vnd.tiddlywiki
+
+{{!!caption}}
+
+!! Fields
+
+; description
+: When possible, the main idea of a Notecard tiddler should be summed up into a sentence or two and placed in the `description` field. This be displayed next to a gem icon underneath the tiddler's title, and it will appear in a tooltip when you hover over the tiddler in the ReferenceExplorer. (If no `description` field is available, a short excerpt of the beginning of the tiddler is shown in this tooltip.)
+; es
+: The [[epistemic status|EpistemicStatuses]] of this Notecard, if one is appropriate. This may be chosen from the drop-down in the upper-right of the tiddler in view mode.
+; url
+: If this idea has a single URL strongly associated with it (for instance, a blog post describing the idea that everyone knows about), it may be placed here.

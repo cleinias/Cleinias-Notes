@@ -1,6 +1,35 @@
+caption: A tangible result of a ''Project'' (and possibly one of several)
 color: #ff0000
-created: 20251231230123810
+created: 20260102162440795
+creator: soren
 icon: $:/core/images/tag-button
-modified: 20251231230127643
+modified: 20260102172320916
+modifier: soren
+refexplorer-hide: false
+tags: Meta
 title: Outcome
 type: text/vnd.tiddlywiki
+
+{{!!caption}}
+
+An ''Outcome'' is typically is a publication, or a talk, or a software program, or some other kind of concrete object standing on its own outside of the private realm of notes. 
+Importantly, an ''Outcome''  is different from a //result//, which is an intermediate product resulting from some (possibly partially) completed ''Task''. Notice that //results// are not basic types---any notecard can be tagged as a result of a ''Task'', whereas an ''Outcome'' is a separate type, reflecting its different status.  
+
+!! Naming
+
+No particular naming conventions, but keep it short.
+
+
+!! Fields
+
+An ''Outcome'' always has the following fields:
+
+
+* caption
+** A brief description of the outcome
+* outcome-type
+** Whether article, talk, program, etc. Always selected from a drop down menu limiting the possible choices. "In progress" indicates the outcome has not been completed yet, but is near completion. Use regular ''Notecard''s tagged //result// for projected outcomes in early stages and only create an ''Outcome'' when nearing completion.
+* from-projects
+** A link to a ''Project'' or to a list of ''Project''s producing the outcome
+*completed
+** The date the outcome was completed in the format YYYYMMDD

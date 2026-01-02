@@ -1,6 +1,6 @@
 created: 20230407023231664
 creator: soren
-modified: 20240601153736265
+modified: 20260102181647104
 modifier: soren
 tags: 
 title: $:/sib/Templates/Automatic/UpdateStatus
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 \function is-stale() [<compareAgainst>compare:date:lt<stale-date>][all[current]tag[NeedsAttention]] [all[current]links[]match[TODO]]
 
 <!-- transcluded in $:/core/ui/ViewTemplate/subtitle -->
-<% if [all[current]tag[Idea]] %>
+<% if [all[current]tag[Card]] %>
 	&nbsp;
 	<$wikify name="stale-date" text="""
 	<$macrocall $name="dateadd" basedate=<<now "YYYY0MM0DD">> months="-6"/>
