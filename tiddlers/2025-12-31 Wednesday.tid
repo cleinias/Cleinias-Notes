@@ -1,5 +1,5 @@
 created: 20260101064434823
-modified: 20260101065751949
+modified: 20260101173614635
 tags: Journal
 title: 2025-12-31 Wednesday
 type: text/vnd.tiddlywiki
@@ -15,3 +15,5 @@ type: text/vnd.tiddlywiki
 *I then managed to produce a template and a tiddler for one of the three Project management types  I am introducing, ''//Task//''
 * Hopefully, creating the other two will be much faster.
 * Then it is on to the modification of the existing types I am reusing, as per the table inserted in [[The structure of my research activity]]
+* I also started to modify the list of types I will use, and created a still provisional list: [[CleiniasNotesTypes]] 
+* I also learnt that types are simply identified by a tag with color #ff00000 (red) and label tag-button. Proceeded to demote thos I don't need and promote those I do need in the tag manager.

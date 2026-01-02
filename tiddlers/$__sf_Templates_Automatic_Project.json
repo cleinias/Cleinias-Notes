@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20260101165310064",
+        "text": "<% if [all[current]tag[Project]] %>\n\n\n\n<table class=\"sourceDeetsTable\">\n\t<tr>\n\t\t<th>Goal</th>\n\t\t<td>{{!!goal}}</td>\n\t</tr>\n\t<tr>\n\t\t<th>Resources</th>\n\t\t<td>{{!!resources}}</td>\n\t</tr>\n\t<tr>\n\t\t<th>Status</th>\n\t\t<td>\n\t\t\t<<project-status-selector>>\n\t\t\t<$list filter=\"[all[current]projectstatus[Done]]\">\n\t\t\t\ton <$view field=\"completed\" format=\"date\" template=\"mmm 0DD YYYY\"/>\n\t\t\t</$list>\n\t\t\t<$list filter=\"[all[current]!projectstatus[Done]]\">\n\t\t\t\tissues: <$view field=\"issues\"/>\n\t\t\t</$list>\t\t</td>\n\t</tr>\n\n</table>\n<style>\n.sourceDeetsTable tr th {\n\ttext-align: right;\n}\n</style>\n\n\n<$details summary=\"Pending Tasks\" class=big>\n<ul>\n <$list filter=\"[all[current]backlinks[]tag[Task]!taskstatus[Done]]\">\n\t <li>\n\t\t\t<$link/> \n\t\t\t --> \n\t\t\t<$view field=\"caption\">\n\t </li>\n\t</$list>\n</ul>\n</$details>\n\n<% endif %>\n\n",
+        "title": "$:/sf/Templates/Automatic/Project",
+        "creator": "soren",
+        "modified": "20260102071344077",
+        "modifier": "Cleinias",
+        "tags": "$:/tags/ViewTemplate",
+        "type": "text/vnd.tiddlywiki",
+        "description": "Display a table of fields and other information about the project described by this tiddler.",
+        "transcludedin": "All tiddlers tagged <<tag Project>> "
+    }
+]

@@ -1,6 +1,6 @@
 created: 20180925155320737
 creator: Thomas Elmiger
-modified: 20210920202652482
+modified: 20260101173807651
 modifier: soren
 tags: $:/tags/Stylesheet
 title: $:/plugins/telmiger/details/colours.css
@@ -21,6 +21,12 @@ details.notification summary {
     background-color: <<colour notification-background>>;
     /* TW leaves color undefined/uses foreground */
 }
+
+details.big summary {
+    font-size:x-large;
+    /* TW leaves colors undefined/uses foreground and background*/
+}
+
 
 details.warning summary {
     background-color: #ffbbaf;
