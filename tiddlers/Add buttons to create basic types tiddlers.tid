@@ -1,0 +1,15 @@
+caption: Add buttons for basic types
+completed: 20260102
+created: 20260102191034528
+issues: 
+modified: 20260103173613865
+project: CZK Improvements needed
+resources: https://groktiddlywiki.com/read/#Creating%20Tiddlers%20With%20Predefined%20Fields
+tags: Task
+taskstatus: Done
+title: Add buttons to create basic types tiddlers
+type: text/vnd.tiddlywiki
+
+Needed for [[CZK improvements needed]]
+
+Add a button for the cration of Card, Project, Task, and Outcome, with instructions and predefined fields

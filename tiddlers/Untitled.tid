@@ -1,0 +1,4 @@
+title: Untitled
+type: text/vnd.tiddlywiki
+
+<table class="tc-edit-fields"><tbody><tr class="tc-edit-field"><td class="tc-edit-field-name">completed:</td><td class="tc-edit-field-value"><span class=" tc-keyboard"><input type="text" placeholder="field value" class="tc-edit-texteditor tc-edit-fieldeditor" tabindex="1"></span></td><td class="tc-edit-field-remove"></td></tr><tr class="tc-edit-field"><td class="tc-edit-field-name">goal:</td><td class="tc-edit-field-value"><span class=" tc-keyboard"><input type="text" placeholder="field value" class="tc-edit-texteditor tc-edit-fieldeditor" tabindex="1"></span></td><td class="tc-edit-field-remove"></td></tr><tr class="tc-edit-field" style="transition: none; transform: none; opacity: 1;"><td class="tc-edit-field-name"></td></tr></tbody></table>

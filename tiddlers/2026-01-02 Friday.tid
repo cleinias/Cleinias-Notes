@@ -1,5 +1,5 @@
 created: 20260102181430065
-modified: 20260102182005206
+modified: 20260103011703895
 tags: Journal
 title: 2026-01-02 Friday
 type: text/vnd.tiddlywiki
@@ -8,3 +8,9 @@ type: text/vnd.tiddlywiki
 
 * Completed writing the basic types for the minimal project mgmt system: [[Project]], [[Task]], [[Outcome]], and [[Card]]
 ** Will still need to fine tune the ''Card'''s fields, though, in particular the epistemic status
+* Added new buttons and actions to create new instances of ''Project'', ''Task'', ''Outcome'', and ''Card'', with predefined fields
+** Will need to improve the icons, however
+
+!! Problems
+* Unfortunately found out that the backlinks system to get all tasks for a project and presumably all results for a task, etc., only works if the link in the task is explicitly written out. If it is in a field or transcluded from a field it does not show up as a backlink 
+** Wrote a call for help to the TW5 googlegroup

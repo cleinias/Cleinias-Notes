@@ -1,0 +1,16 @@
+[
+    {
+        "created": "20260103003432277",
+        "text": "Write a tiddler that will collate the texts of a series of journal entries (by months, between dates, etc)\n\nNeeded for [[CZK improvements needed]]",
+        "title": "Collate a series of journal entries",
+        "tags": "Task",
+        "modified": "20260103004910507",
+        "type": "text/vnd.tiddlywiki",
+        "caption": "Produce a collated fields of journal entries",
+        "project": "CZK improvements needed",
+        "taskstatus": "80%",
+        "completed": "",
+        "resources": "",
+        "issues": "Need to add date selection buttons or fields "
+    }
+]

@@ -1,0 +1,9 @@
+created: 20260103174029636
+modified: 20260103174242141
+tags: Journal
+title: 2026-01-03 Saturday
+type: text/vnd.tiddlywiki
+
+!!Work Done
+*Added a table with buttons for new items (Card, Project, etc.) in the Dashboard
+* Added a table to the dashboard  (with aaldrich's tables plugin) to show all the existing ''Task''s

@@ -1,0 +1,11 @@
+created: 20260103004335283
+modified: 20260103004744305
+tags: Meta
+title: CollatedJournal
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Journal]] +[!sort[created]]">
+<$link/>  
+<$transclude field=text mode=block />
+<br>
+</$list>

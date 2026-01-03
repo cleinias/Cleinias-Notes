@@ -1,0 +1,30 @@
+created: 20260103040808848
+modified: 20260103175743178
+tags: Meta
+title: Cleinias dashboard
+type: text/vnd.tiddlywiki
+
+!Add a new item to your notes
+|tc-center|k
+| Project  | Task | Outcome | Source |
+| {{$:/sf/Buttons/NewProject}} | {{$:/sf/Buttons/NewTask}} | {{$:/sf/Buttons/NewOutcome}} | {{$:/sf/Buttons/NewCard}} |
+
+! Work in progress
+<$details summary="Current projects" open="yes" class=big>
+	<$list filter="[tag[Project]]">
+		<$link to=<<currentTiddler>> /><br>
+	</$list>
+</$details>
+
+<$details summary="Current tasks" open="no" class=big>
+	<<table "Tasks">>
+</$details>
+
+! Working on Cleinias Notes
+
+* [[The document summing up the structure of my Research activity|The structure of my research activity]] that informed the construction of ''Cleinias Notes''
+* [[The original 'Getting started' page from Soren Bjornstad's Zettelkasten|$:/sib/GettingStarted]
+* [[The original ''Documentation'' page from Soren's Bjornstad Zettelkasten|]]
+*[[Soren Bjornstad's Grok Tiddlywiki|https://groktiddlywiki.com]]
+* Tiddlywiki communities on [[Google Groups|]] and on [[the new site|]]
+* Tiddlywiki [[reference manual|]] (as it were, very skimpy)

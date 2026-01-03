@@ -3,14 +3,14 @@
         "created": "20260101231637663",
         "text": "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   \n\nNam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo\n\nset by [[TestProject]]",
         "title": "testTask 2",
-        "modified": "20260102071755141",
+        "modified": "20260103173835290",
         "tags": "Task",
         "type": "text/vnd.tiddlywiki",
         "completed": "20260131",
         "issues": "lack of time",
-        "readstatus": "partial",
         "resources": "[[Dwyer1971]][[Dwyer1971]][[Dwyer1971]][[Dwyer1971]][[Dwyer1971]] [[Barrachina2007]] [[Barrachina2007]] [[Barrachina2007]] [[Barrachina2007]]",
         "taskstatus": "Done",
-        "caption": "This is just a second test Task "
+        "caption": "This is just a second test Task ",
+        "project": "CZK improvements needed"
     }
 ]

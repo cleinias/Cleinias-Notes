@@ -1,11 +1,11 @@
-caption: new source
-created: 20200822190145295
+caption: new Card
+created: 20260102233954818
 creator: soren
-description: Create a new source tiddler
-modified: 20260102233950731
+description: Create a new Card tiddler
+modified: 20260103052639537
 modifier: soren
 tags: $:/tags/PageControls
-title: $:/sib/Buttons/NewSource
+title: $:/sf/Buttons/NewCard
 type: text/vnd.tiddlywiki
 
 \whitespace trim
@@ -13,15 +13,11 @@ type: text/vnd.tiddlywiki
 \procedure create-action()
   <$action-sendmessage
     $message="tm-new-tiddler"
-    title="New Source"
-    tags="Source"
-		caption=""
-		medium=""
-		url=""
-		readstatus="unread"
-		author=""
-		completed=""
-		year=<<now YYYY>>
+    title="New Card"
+    tags="Card"
+		description=""
+		es=""
+		source=""
   />
 \end create-action
 
@@ -36,7 +32,7 @@ type: text/vnd.tiddlywiki
 	<% endif %>
 	<% if [<tv-config-toolbar-text>match[yes]] %>
 		<span class="tc-btn-text">
-			<$text text={{$:/sib/Buttons/NewSource!!caption}}/>
+			<$text text={{$:/sf/Buttons/NewCard!!caption}}/>
 		</span>
 	<% endif %>
 </$button>

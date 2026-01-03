@@ -1,10 +1,10 @@
 [
     {
         "created": "20260101045405662",
-        "text": "<% if [all[current]tag[Task]] %>\n<table class=\"sourceDeetsTable\">\n\t<tr>\n\t\t<th>Goal</th>\n\t\t<td>{{!!goal}}</td>\n\t</tr>\n\t<tr>\n\t\t<th>Resources</th>\n\t\t<td>{{!!resources}}</td>\n\t</tr>\n\t<tr>\n\t\t<th>Status</th>\n\t\t<td>\n\t\t\t<<task-status-selector>>\n\t\t\t<$list filter=\"[all[current]taskstatus[Done]]\">\n\t\t\t\ton <$view field=\"completed\" format=\"date\" template=\"mmm 0DD YYYY\"/>\n\t\t\t</$list>\n\t\t\t<$list filter=\"[all[current]!taskstatus[Done]]\">\n\t\t\t\tissues: <$view field=\"issues\"/>\n\t\t\t</$list>\t\t</td>\n\t</tr>\n\n</table>\n\n<style>\n.sourceDeetsTable tr th {\n\ttext-align: right;\n}\n</style>\n\n<h2>Results achieved so far: </h2>\n<ul>\n <$list filter=\"[all[current]backlinks[]tag[Result]]\">\n\t <li>\n\t\t\t<$link/> \n\t\t\t --> \n\t\t\t<$view field=\"caption\">\n\t </li>\n\t</$list>\n</ul>\n\n<% endif %>",
+        "text": "<% if [all[current]tag[Task]] %>\n<table class=\"sourceDeetsTable\">\n\t<tr>\n\t\t<th>Goal</th>\n\t\t<td>{{!!caption}}</td>\n\t</tr>\n\t<tr>\n\t\t<th>Resources</th>\n\t\t<td>{{!!resources}}</td>\n\t</tr>\n\t<tr>\n\t\t<th>Status</th>\n\t\t<td>\n\t\t\t<<task-status-selector>>\n\t\t\t<$list filter=\"[all[current]taskstatus[Done]]\">\n\t\t\t\ton <$view field=\"completed\" format=\"date\" template=\"mmm 0DD YYYY\"/>\n\t\t\t</$list>\n\t\t\t<$list filter=\"[all[current]!taskstatus[Done]]\">\n\t\t\t\tissues: <$view field=\"issues\"/>\n\t\t\t</$list>\t\t</td>\n\t</tr>\n\n</table>\n\n<style>\n.sourceDeetsTable tr th {\n\ttext-align: right;\n}\n</style>\n\n<h2>Results achieved so far: </h2>\n<ul>\n <$list filter=\"[all[current]backlinks[]tag[Result]]\">\n\t <li>\n\t\t\t<$link/> \n\t\t\t --> \n\t\t\t<$view field=\"caption\">\n\t </li>\n\t</$list>\n</ul>\n\n<% endif %>",
         "title": "$:/sf/Templates/Automatic/Task",
         "creator": "soren",
-        "modified": "20260101064342096",
+        "modified": "20260102235526186",
         "modifier": "Cleinias",
         "tags": "$:/tags/ViewTemplate",
         "type": "text/vnd.tiddlywiki",

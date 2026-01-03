@@ -1,10 +1,10 @@
 [
     {
         "created": "20260101061605764",
-        "text": "{{!!caption}}\n\n{{SorenSourceInfo}}\n\n\n!! Naming\n\nNo particular naming conventions\n\n\n!! Fields\n\nA ''Task'' always has  the following fields:\n\n* ''caption''\n** A brief description of the task to be accomplished\n* ''taskstatus''\n** How far along the task is (chosen from the drop-down menu)\n* ''resources''\n** A list of resources the task can use, as links to specific tiddlers detailing them (can be as simple as a list of linked //Source//s)\n* ''completed''\n** If the taskstatus is \"Done\", the date when it was completed. \n*** IMPORTANT: a date in ''ztk'' is entered as YYYYMMDD with no spaces or any other separator (i.e. it is a (partial) timestamp). The template takes care of the formatting, but it must be entered as such.\n* ''issues''\n** If the task is NOT Done, a list of issues that are preventing the task to be accomplished, either as links to tiddlers or simple words (e. g. \"Lacking time\")\n\n!! Results\nA task partially or completely done, will have a list of results displayed, linking to all the tiddlers tagged \"Result\" that link kback to that Task \n",
+        "text": "{{!!caption}}\n\n{{SorenSourceInfo}}\n\n\n!! Naming\n\nNo particular naming conventions\n\n\n!! Fields\n\nA ''Task'' always has  the following fields:\n\n* ''caption''\n** A brief description of the task to be accomplished\n* ''project''\n** The project this task is needed for\n* ''taskstatus''\n** How far along the task is (chosen from the drop-down menu)\n* ''resources''\n** A list of resources the task can use, as links to specific tiddlers detailing them (can be as simple as a list of linked //Source//s)\n* ''completed''\n** If the taskstatus is \"Done\", the date when it was completed. \n*** IMPORTANT: a date in ''ztk'' is entered as YYYYMMDD with no spaces or any other separator (i.e. it is a (partial) timestamp). The template takes care of the formatting, but it must be entered as such.\n* ''issues''\n** If the task is NOT Done, a list of issues that are preventing the task to be accomplished, either as links to tiddlers or simple words (e. g. \"Lacking time\")\n\n!! Results\nA task partially or completely done, will have a list of results displayed, linking to all the tiddlers tagged \"Result\" that link back to that Task \n",
         "title": "Task",
         "creator": "soren",
-        "modified": "20260102052433466",
+        "modified": "20260102192012042",
         "modifier": "soren",
         "tags": "Meta",
         "type": "text/vnd.tiddlywiki",

@@ -1,0 +1,12 @@
+caption: replace fields of Source with bibtex equivalents
+created: 20260102182953978
+modified: 20260103173554777
+project: CZK improvements needed
+tags: Task
+taskstatus: 0
+title: Fix Source to use bibtex fields
+type: text/vnd.tiddlywiki
+
+Need to fix the [[Source]] type to automatically use most bibtex-* fields.
+
+A needed improvement to [[CZK improvements needed]]

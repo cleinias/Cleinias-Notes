@@ -1,0 +1,34 @@
+caption: Create a new Task
+created: 20260102191500369
+modified: 20260103064258397
+tags: Meta $:/tags/PageControls $:/tags/Global
+title: $:/sf/Buttons/NewTask
+type: text/vnd.tiddlywiki
+
+\procedure newTask()
+  <$action-sendmessage
+    $message="tm-new-tiddler"
+    title="New Task"
+    tags="[[Task]]"
+    caption=""
+		project=""
+    taskstatus=""
+		completed=""
+    resources=""
+    issues=""/>
+\end
+
+<$button
+	class=<<tv-config-toolbar-class>>
+	selectedClass="tc-selected"
+	tooltip={{!!caption}}
+	actions=<<newTask>> >
+	<% if [<tv-config-toolbar-icons>match[yes]] %>
+		{{$:/sf/images/NewTaskIconWhite}}
+	<% endif %>
+	<% if [<tv-config-toolbar-text>match[yes]] %>
+		<span class="tc-btn-text">
+			<$text text={{$:/sf/Buttons/NewTask!!caption}}/>
+		</span>
+	<% endif %>
+</$button>

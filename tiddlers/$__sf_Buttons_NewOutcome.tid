@@ -1,0 +1,33 @@
+caption: Create a new Outcome
+created: 20260102231750264
+modified: 20260102233413072
+tags: Meta $:/tags/PageControls
+title: $:/sf/Buttons/NewOutcome
+type: text/vnd.tiddlywiki
+
+\procedure newOutcome()
+  <$action-sendmessage
+    $message="tm-new-tiddler"
+    title="New Task"
+    tags="[[Task]]"
+    caption=""
+		outcome-type=""
+    from-projects=""
+    completed=""/>
+\end
+
+<$button
+	class=<<tv-config-toolbar-class>>
+	tooltip="Create a new Outcome"
+	selectedClass="tc-selected"
+	tooltip={{!!caption}}
+	actions=<<newOutcome>> >
+	<% if [<tv-config-toolbar-icons>match[yes]] %>
+		{{$:/sf/images/NewOutcomeIcon}}
+	<% endif %>
+	<% if [<tv-config-toolbar-text>match[yes]] %>
+		<span class="tc-btn-text">
+			<$text text={{$:/sf/Buttons/NewOutcome!!caption}}/>
+		</span>
+	<% endif %>
+</$button>

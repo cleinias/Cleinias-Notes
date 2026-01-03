@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20260102182746072",
+        "text": "I need a sorted list of journal entries\n\nNeeded fo r [[CZK improvements needed]]",
+        "modified": "20260103002812946",
+        "title": "Sorted list of journal entries",
+        "tags": "Task",
+        "type": "text/vnd.tiddlywiki",
+        "completed": "20251230",
+        "taskstatus": "Done",
+        "project": "CZK improvements needed",
+        "caption": "Display a sorted list of journal entries "
+    }
+]

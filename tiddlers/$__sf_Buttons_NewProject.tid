@@ -1,0 +1,33 @@
+caption: Create a new Project
+created: 20260102231737985
+modified: 20260102233444023
+tags: Meta $:/tags/PageControls
+title: $:/sf/Buttons/NewProject
+type: text/vnd.tiddlywiki
+
+\procedure newProject()
+  <$action-sendmessage
+    $message="tm-new-tiddler"
+    title="New Project"
+    tags="[[Project]]"
+    caption=""
+		goal=""
+    completed=""
+    resources=""
+    issues=""/>
+\end
+
+<$button
+	class=<<tv-config-toolbar-class>>
+	selectedClass="tc-selected"
+	tooltip={{!!caption}}
+	actions=<<newProject>> >
+	<% if [<tv-config-toolbar-icons>match[yes]] %>
+		{{$:/sf/images/NewProjectIcon}}
+	<% endif %>
+	<% if [<tv-config-toolbar-text>match[yes]] %>
+		<span class="tc-btn-text">
+			<$text text={{$:/sf/Buttons/NewProject!!caption}}/>
+		</span>
+	<% endif %>
+</$button>
