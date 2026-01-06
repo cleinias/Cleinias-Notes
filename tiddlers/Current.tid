@@ -1,0 +1,25 @@
+created: 20260104040009573
+modified: 20260104045718276
+tags: Tool Meta
+title: Current
+type: text/vnd.tiddlywiki
+
+<$details summary="Yesterday" class=big open=no>
+	<ul>
+		<$list filter="[!tag[Meta]!tag[Tool]days[-1]!is[system]!tag[Journal]!sort[modified]]">
+				<li>
+					<$link><$view field=title/> ==> Last modified on:  <$view field=modified format=date template="mmm DDth YYYY" /> </$link>
+				</li>
+		</$list>
+	</ul>
+</$details>
+
+<$details summary="Last week" class=big open=no>
+	<ul>
+		<$list filter="[!tag[Meta]!tag[Tool]days[-7]!is[system]!tag[Journal]!sort[modified]]">
+				<li>
+					<$link><$view field=title/> ==> Last modified on:  <$view field=modified format=date template="mmm DDth YYYY" /> </$link>
+				</li>
+		</$list>
+	</ul>
+</$details>

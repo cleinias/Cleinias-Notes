@@ -1,9 +1,9 @@
-caption: new Card
+caption: New Card
 created: 20260102233954818
 creator: soren
 description: Create a new Card tiddler
-modified: 20260103052639537
-modifier: soren
+modified: 20260103213911356
+modifier: stefano
 tags: $:/tags/PageControls
 title: $:/sf/Buttons/NewCard
 type: text/vnd.tiddlywiki
@@ -28,7 +28,7 @@ type: text/vnd.tiddlywiki
 	actions=<<create-action>>
 >
 	<% if [<tv-config-toolbar-icons>match[yes]] %>
-		{{$:/core/images/quote}}
+		{{$:/sf/images/CardIcon}}
 	<% endif %>
 	<% if [<tv-config-toolbar-text>match[yes]] %>
 		<span class="tc-btn-text">

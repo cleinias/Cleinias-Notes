@@ -1,8 +1,8 @@
 created: 20200808023836194
 creator: soren
 description: Display a table of fields and other information about the source described by this tiddler.
-modified: 20251230195101677
-modifier: Cleinias
+modified: 20260103214726619
+modifier: stefano
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Source
 transcludedin: All tiddlers tagged <<tag Source>> or <<tag Sink>>.

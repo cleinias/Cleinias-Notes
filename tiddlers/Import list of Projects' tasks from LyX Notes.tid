@@ -1,0 +1,25 @@
+caption: Import tasks from LyX
+completed: 
+created: 20260104052756085
+issues: 
+modified: 20260106050510291
+project: [[SuperConcrete]][[Homeo]]
+resources: 
+tags: Task
+taskstatus: 20%
+title: Import list of Projects' tasks from LyX Notes
+type: text/vnd.tiddlywiki
+
+I have a LyX file containing a semi-organized list of tasks for different projects. Convert it to separate tasks
+
+Needed for:
+
+[[Homeo]] 
+
+[[SuperConcrete]] 
+
+[[Play and Passivity volume 2]]
+
+[[Play and Passivity volume 3]] 
+
+[[inC]]

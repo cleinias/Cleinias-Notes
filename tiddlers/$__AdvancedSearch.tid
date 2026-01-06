@@ -1,7 +1,9 @@
 color: #bbb
 created: 20260102164948134
+creator: stefano
 icon: $:/core/images/advanced-search-button
-modified: 20260103160247920
+modified: 20260103204555792
+modifier: stefano
 title: $:/AdvancedSearch
 type: text/vnd.tiddlywiki
 

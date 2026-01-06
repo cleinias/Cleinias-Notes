@@ -1,5 +1,7 @@
 created: 20260103174029636
-modified: 20260103174242141
+creator: stefano
+modified: 20260104050100406
+modifier: stefano
 tags: Journal
 title: 2026-01-03 Saturday
 type: text/vnd.tiddlywiki
@@ -7,3 +9,16 @@ type: text/vnd.tiddlywiki
 !!Work Done
 *Added a table with buttons for new items (Card, Project, etc.) in the Dashboard
 * Added a table to the dashboard  (with aaldrich's tables plugin) to show all the existing ''Task''s
+* Added a section of "//Maintenance work//" to the Dashboard, that now includes:
+**a list of ''Untagged'' non-system tiddlers (therefore lost to the system)
+** a list of cards ''Needing attention''
+** a list of other ''TODO'' items (everything marked TODO in single tiddlers)
+** a list of ''Current'' tiddlers containing two sublists (not sure how useful these will be):
+***Tiddlers last modified //Yesterday//
+***Tiddler last modified //Last week//
+
+!! Issues
+* I don't understand how to properly size the SVG images for the buttons. Partly it is my ignorance of SVG (although I did read a bit about vieport and viewbox, which was easy enough to understand), but mostly it is my ignorance of what TW5 does with the images that makes it hard to understand what happens to their sizes.
+
+!! Next job
+* Done with setting up the ''CZK'' system! Now it is time to do some actual work, starting with fixing up the existing cards and setting up the appropriate tasks for the various projects 

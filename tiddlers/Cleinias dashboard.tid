@@ -1,6 +1,6 @@
 created: 20260103040808848
 creator: stefano
-modified: 20260103182001201
+modified: 20260104043952003
 modifier: stefano
 tags: Meta
 title: Cleinias dashboard
@@ -8,8 +8,8 @@ type: text/vnd.tiddlywiki
 
 !Add a new item to your notes
 |tc-center|k
-| Project  | Task | Outcome | Source |
-| {{$:/sf/Buttons/NewProject}} | {{$:/sf/Buttons/NewTask}} | {{$:/sf/Buttons/NewOutcome}} | {{$:/sf/Buttons/NewCard}} |
+| Project  | Task | Outcome | Card | Source |
+| {{$:/sf/Buttons/NewProject}} | {{$:/sf/Buttons/NewTask}} | {{$:/sf/Buttons/NewOutcome}} | {{$:/sf/Buttons/NewCard}} | (missing) |
 
 ! Work in progress
 <$details summary="Current projects" open="yes" class=big>
@@ -21,6 +21,25 @@ type: text/vnd.tiddlywiki
 <$details summary="Current tasks" open="no" class=big>
 	<<table "Tasks">>
 </$details>
+
+! Maintenance
+<$details  summary="Untagged tiddlers" class=big>
+{{Untagged non-system tiddlers}}
+</$details>
+
+<$details summary="Cards needing attention" class=big>
+{{CardsNeedingAttention}}
+</$details>
+
+<$details summary="TODO Items" class=big>
+{{TODO}}
+</$details>
+
+<$details summary="Recent Items" class=big>
+{{Current}}
+</$details>
+
+
 
 ! Working on Cleinias Notes
 <$details summary="Documentation on Tiddlywiki and Zettelkasten" class=big> 

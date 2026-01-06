@@ -1,6 +1,8 @@
-caption: Create a new Project
+caption: New Project
 created: 20260102231737985
-modified: 20260102233444023
+creator: stefano
+modified: 20260103214008206
+modifier: stefano
 tags: Meta $:/tags/PageControls
 title: $:/sf/Buttons/NewProject
 type: text/vnd.tiddlywiki
@@ -20,7 +22,7 @@ type: text/vnd.tiddlywiki
 <$button
 	class=<<tv-config-toolbar-class>>
 	selectedClass="tc-selected"
-	tooltip={{!!caption}}
+	tooltip={{$:/sf/Buttons/NewProject!!caption}}
 	actions=<<newProject>> >
 	<% if [<tv-config-toolbar-icons>match[yes]] %>
 		{{$:/sf/images/NewProjectIcon}}

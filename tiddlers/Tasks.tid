@@ -1,5 +1,6 @@
 created: 20260103170701779
-modified: 20260103173459824
+modified: 20260104170854950
+tags: Meta
 tbl-add-records: 
 tbl-anything: 
 tbl-button-actions: 
@@ -18,8 +19,8 @@ tbl-columns: title taskstatus project
 tbl-expand: 
 tbl-filter: [tag[Task]]
 tbl-limit: 9999999
-tbl-mode: edit
-tbl-page-marker: Change the icon of NewCard
+tbl-mode: normal
+tbl-page-marker: Add tag for Homeo project
 tbl-show-caption: true
 tbl-show-colgroup: false
 tbl-show-edit: true

@@ -1,8 +1,8 @@
 created: 20251230061923207
 creator: Cleinias
-modified: 20260102181647118
+modified: 20260104061037777
 modifier: Cleinias
-tags: Card NeedsAttention
+tags: Card
 title: The structure of my research activity
 type: text/vnd.tiddlywiki
 
@@ -57,8 +57,8 @@ Meta-activities:
 ** This is a high-level result, which I need to keep separate from the intermediate results in order to make clear what a project is or will deliver. In other words, an //Outcome// is a goal of a //Project//. This type is indeed equivalent to  [[tzk]]'s ''//Sink//'', which I will therefore adopt and repurpose.  
 ! Tzk types I can reuse (but may have to modify)
 * //''Source''//
-**Modify on the basis of bibtex fields (started but to be completed)
-* //''Project''//
+**Modify on the basis of bibtex fields (started but to be completed) [[TODO|TODO]]
+* //''Project''// DONE
 ** Modify as per above
 * ''//PAO//'' 
 * Place? (I doubt it)

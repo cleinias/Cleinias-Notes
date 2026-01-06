@@ -1,0 +1,14 @@
+created: 20260105010700746
+modified: 20260105011204080
+tags: Journal
+title: 2026-01-04 Sunday
+type: text/vnd.tiddlywiki
+
+!!Work Done
+
+* No work done today---struggled all morning trying to get the //search// operator in TW5 to work with a variable (which would be needed in order to get the Project's viewTemplate to instantiate  a list of all task belonging to said project). Gave up-->need to recast my approach in terms of ''Tags'', not ''Fields''
+* Didn't work in the afternoon, sick
+
+!! To Do tomorrow:
+* Start working! Most precisely, on [[Play and Passivity volume 2]] and more specifically, on reading the Biblio (need to create tasks and stuff, maybe do it after reading...)
+* In spare time, //not in prime time// fix the aforementioned problem with ''Project'' and ''Tasks'' --> Get the hierarchy through tags, not fields

@@ -1,9 +1,10 @@
 created: 20251230042703425
 creator: Cleinias
-modified: 20251230042703425
+modified: 20260104052402467
 modifier: Cleinias
-tags: 
+tags: Card SuperConcrete NeedsAttention
 title: SuperCollider and Ardour
+type: text/vnd.tiddlywiki
 
 "Montage" of tracks/samples, etc is not really what *Supercollider*
     does best. *Audacity* and/on *Ardour* would probably be better.

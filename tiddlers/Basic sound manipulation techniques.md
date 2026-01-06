@@ -1,10 +1,3 @@
-created: 20251230043003089
-creator: Cleinias
-modified: 20251230043003089
-modifier: Cleinias
-tags: 
-title: Basic sound manipulation techniques
-
 List of basic, single-sound manipulation techniques (i.e. no
     "combining, splicing," etc.):
 
