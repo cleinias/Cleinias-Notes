@@ -1,0 +1,78 @@
+created: 20260107042107056
+modified: 20260107055648788
+tags: Card Music Recorder
+title: Flute pieces and exercises I have worked on
+type: text/vnd.tiddlywiki
+
+!! Pieces
+*[[The Single Petal of a Rose]] -->  {{The Single Petal of a Rose!!bibtex-author}}  
+*[[Astrakan Café]] --> {{bibtex-author}}
+*[[Amarilli mia bella]] --> [[Amarilli mia bella]]
+*[[Autumn Leaves]] --> [[Autumn Leaves]]
+*[[Autumn Leaves Miles' Solo]] --> [[Autumn Leaves Miles' Solo]]
+*[[In a Sentimental Mood]] --> [[In a Sentimental Mood]]
+*[[All of Me]] --> [[All of Me]]
+*[[Poundcake]] -[[Poundcake]]
+*[[Exactly Like You]]
+*[[St. Thomas]]
+*[[So What]]
+*[[So What Miles' Solo]]
+*[[Take 5]]
+*[[Bye Bye Blackbird]]
+*[[Bye Bye Blackbird Miles' solo]]
+*[[D8 Blues]]
+*[[D8 Blues Lester Young's Solo]]
+*[[Blues number 2]]
+*[[Bedouin Trail]]
+*[[Black Orpheus]]
+*[[Parfum de Gitane]]
+*[[Mack the Knife]]
+*[[Moanin']]
+*[[Lascia ch'io pianga]]
+*[[Tu vuo' fa' l'americano]]
+*[[Yardbird Suite]]
+*[[Pavane pour une infante defunte]]
+*[[Beau Soir]]
+*[[Spiegel im Spiegel]]
+*[[Gnossienne No.1]]
+*[[Amor, Che vuoi ragion]]
+*[[Hor venduto ho la speranza]]
+*[[Other renaissance Canzone?]]
+*[[Gymnopédie no.1]]
+*[[Doen Daphne d'over schoone Maeght]] (Theme ony)
+*[[Flow my Tears]]
+*[[Fly me to the Moon]]
+ 
+
+
+!!Exercises
+* [[Rooda #1]]
+* [[Rooda #3]]
+* [[Rooda #11]]
+* [[Rooda #12]]
+
+As a table?
+
+
+<table>
+	<tr>
+		<th> Title </th>
+		<th> Composer </th>
+		<th> Instrument </th>
+	</tr>
+	<$list filter="[all[]tag[Source]tag[Recorder]sort[modified]]">
+	<tr>
+		<td>
+     		<$link to=<<currentItem>>/>
+  		</td>
+			<td>
+				{{!!bibtex-author}}
+			</td>
+			<td>
+				{{!!instrument}}
+			</td>			
+	</tr>
+	</$list>
+</table>
+
+

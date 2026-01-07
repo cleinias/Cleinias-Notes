@@ -1,0 +1,11 @@
+created: 20260106231933943
+modified: 20260107054731408
+tags: Tool
+title: All tiddlers created today
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[]!is[system]days:created[0]]">
+<$link to=<<currentTiddler>>/>  <$view field="tags"/>  <br>
+</$list>
+
+

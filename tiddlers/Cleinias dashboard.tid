@@ -1,6 +1,6 @@
 created: 20260103040808848
 creator: stefano
-modified: 20260104043952003
+modified: 20260107055855636
 modifier: stefano
 tags: Meta
 title: Cleinias dashboard
@@ -39,6 +39,9 @@ type: text/vnd.tiddlywiki
 {{Current}}
 </$details>
 
+<$details summary="Tiddlers created today" class=big>
+{{All tiddlers created today}}
+</$details>
 
 
 ! Working on Cleinias Notes

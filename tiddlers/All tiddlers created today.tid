@@ -1,0 +1,22 @@
+created: 20260107055306828
+modified: 20260107055617913
+tags: Tool CZK
+title: All tiddlers created today
+type: text/vnd.tiddlywiki
+
+<table>
+	<tr>
+		<th> Title </th>
+		<th> Tags </th>
+	</tr>
+	<$list filter="[!is[system]all[]days:created[0]]">
+	<tr>
+		<td>
+     		<$link to=<<currentItem>>/>
+  		</td>
+			<td>
+				{{!!tags}}
+			</td>
+	</tr>
+	</$list>
+</table>

@@ -1,0 +1,16 @@
+<table>
+	<tr>
+		<th> Title </th>
+		<th> Tags </th>
+	</tr>
+	<$list filter="[all[]!is[system]days:created[0]]">
+	<tr>
+		<td>
+     		<$link to=<<currentItem>>/>
+  		</td>
+			<td>
+				{{}}
+			</td>	
+	</tr>
+	</$list>
+</table>

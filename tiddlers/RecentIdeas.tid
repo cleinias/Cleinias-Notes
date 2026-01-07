@@ -1,12 +1,12 @@
 created: 20220909162241485
 creator: soren
-modified: 20260102181647112
+modified: 20260107042058343
 modifier: soren
 tags: Tool Public
 title: RecentIdeas
 type: text/vnd.tiddlywiki
 
-See 100 published Ideas most recently:&ensp;
+See 100 published Cards most recently:&ensp;
 <$radio tiddler="$:/temp/RecentListSortField" value="created">&nbsp;Created</$radio>&ensp;
 <$radio tiddler="$:/temp/RecentListSortField" value="modified">&nbsp;Updated</$radio>
 
@@ -14,7 +14,7 @@ See 100 published Ideas most recently:&ensp;
 	<table class="recent-tab">
 		<tr>
 			<th>Created</th>
-			<th>Idea</th>
+			<th>Card</th>
 			<th>Tags</th>
 		</tr>
 		<$list filter="[tag[Card]tag[Public]!search:title[/]!tag[Software]!sort{$:/temp/RecentListSortField}limit[100]]">
