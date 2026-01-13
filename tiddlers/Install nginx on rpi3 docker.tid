@@ -1,0 +1,9 @@
+created: 20260109231653466
+modified: 20260112192939897
+project: [[CZK improvements needed]]
+tags: Task [[CZK improvements needed]]
+taskstatus: 0
+title: Install nginx on rpi3 docker
+type: text/vnd.tiddlywiki
+
+<$checkbox field="taskstatus" checked="Done" unchecked="0" default="0"> Done</$checkbox>

@@ -1,5 +1,5 @@
 created: 20260107042107056
-modified: 20260107055648788
+modified: 20260108045150404
 tags: Card Music Recorder
 title: Flute pieces and exercises I have worked on
 type: text/vnd.tiddlywiki
@@ -59,6 +59,7 @@ As a table?
 		<th> Title </th>
 		<th> Composer </th>
 		<th> Instrument </th>
+		<th> Genre </th>
 	</tr>
 	<$list filter="[all[]tag[Source]tag[Recorder]sort[modified]]">
 	<tr>
@@ -70,6 +71,9 @@ As a table?
 			</td>
 			<td>
 				{{!!instrument}}
+			</td>			
+			<td>
+				{{!!tags}}
 			</td>			
 	</tr>
 	</$list>

@@ -1,7 +1,7 @@
 created: 20230131043004421
 creator: soren
 description: Show options to quickly create an empty tiddler with a given tag from a missing title.
-modified: 20230405164922599
+modified: 20260107170435192
 modifier: soren
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/MissingTiddlerQuickCreate
@@ -15,5 +15,7 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[current]is[missing]]">
 	Create stub:
 	<<stub-type PAO>>
-	<<stub-type Place>>
+	<<stub-type Source>>
+	<<stub-type Card>>
+	<<stub-type Task>>
 </$list>

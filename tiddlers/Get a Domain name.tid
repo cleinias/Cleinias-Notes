@@ -1,0 +1,17 @@
+caption: Get a domain name in order to access Cleinias Notes remotely
+completed: 20260109225305833
+created: 20260109224531270
+issues: 
+modified: 20260112193515362
+project: [[CZK improvements needed]]
+resources: 
+tags: Task [[CZK improvements needed]] Result
+taskstatus: Done
+title: Get a Domain name
+type: text/vnd.tiddlywiki
+
+for [[CZK improvements needed]]
+
+<$checkbox field="taskstatus" checked="Done" unchecked="0" default="0"> Done?</$checkbox>
+
+[[cleinias.xyz]] is the domain name

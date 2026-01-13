@@ -1,0 +1,9 @@
+created: 20260109232159444
+modified: 20260112192905455
+project: [[CZK improvements needed]]
+tags: Task [[CZK improvements needed]]
+taskstatus: 0
+title: Enable port forwarding
+type: text/vnd.tiddlywiki
+
+<$checkbox field="taskstatus" checked="Done" unchecked="0" default="0"> Done</$checkbox>

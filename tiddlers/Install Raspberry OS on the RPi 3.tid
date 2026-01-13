@@ -1,0 +1,19 @@
+caption: 
+completed: 
+created: 20260109230637677
+issues: 
+modified: 20260109231551777
+project: CZK improvements needed
+resources: 
+tags: Task [[CZK improvements needed]]
+taskstatus: 0
+title: Install Raspberry OS on the RPi 3
+type: text/vnd.tiddlywiki
+
+Needed for [[CZK improvements needed]]
+
+
+
+
+
+<$checkbox field="taskstatus" checked="Done" unchecked="0" default="0"> Done?</$checkbox>

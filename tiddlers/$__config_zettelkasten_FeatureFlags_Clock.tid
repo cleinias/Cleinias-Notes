@@ -2,9 +2,9 @@ caption: Clock
 created: 20210627030648862
 creator: soren
 description: Show the current time and a Pomodoro timer in the upper-right corner of the wiki.
-modified: 20240614190037785
+modified: 20260109172258040
 modifier: soren
-private: no
+private: yes
 public: no
 tags: 
 title: $:/config/zettelkasten/FeatureFlags/Clock

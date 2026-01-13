@@ -1,0 +1,8 @@
+created: 20260112191441881
+modified: 20260112191847826
+tags: Card [[CZK improvements needed]]
+title: NginxProxyManager
+type: text/vnd.tiddlywiki
+
+This is the SW managing the reverse proxy service.
+See the Faq avalaible [[here|https://nginxproxymanager.com/faq/]]

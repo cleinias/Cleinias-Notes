@@ -1,0 +1,20 @@
+caption: 
+completed: 
+created: 20260109225656290
+issues: 
+modified: 20260109232553409
+project: CZK improvements needed
+resources: 
+tags: [[CZK improvements needed]] Task
+taskstatus: 20%
+title: Install reverse proxy server
+type: text/vnd.tiddlywiki
+
+Needed for [[CZK improvements needed]]
+
+I need to:
+
+* [[Install Raspberry OS on the RPi 3 that currently hosts Moodle|Install Raspberry OS on the RPi 3]] --> {{Install Raspberry OS on the RPi 3!!taskstatus}} 
+* [[Install docker on RP3]] --> {{Install docker on RP3!!taskstatus}}
+* [[Install the nginx reverse proxy manager on docker|Install nginx on rpi3 docker]] --> {{Install nginx on rpi3 docker!!taskstatus}}
+* [[Configure nginx manager]] -->  {{Install nginx on rpi3 docker!!taskstatus}}

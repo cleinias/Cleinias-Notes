@@ -36,7 +36,7 @@ exports["application/x-bibtex"] = function(text,fields) {
 			"bibtex-entry-type": entry.entryType
 		};
 		$tw.utils.each(entry.entryTags,function(value,name) {
-			fields[name.toLowerCase()] = value;
+			fields["bibtex-" + name.toLowerCase()] = value;
 		});
 		results.push(fields);
 	});

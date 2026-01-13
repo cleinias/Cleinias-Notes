@@ -1,0 +1,16 @@
+created: 20260109175544326
+modified: 20260109232322566
+tags: Journal
+title: 2026-01-09 Friday
+type: text/vnd.tiddlywiki
+
+!!Work Done
+
+!! Maintenance work
+* Changed the item in the list of links under the site's subtitle, which are governed by the tiddler [[$:/sib/SideBar/InfoLinks]], to open  the dashboard and today's new tiddlers.
+*It took me way too long to find out which non-standard tiddler was governing that links bar. Evetually found out the simple way--> grepped for "random idea" from terminal and found the tiddler containing it... 
+* Also, eliminated the little table with "Person" and "Place" from all journal tiddlers. The table is generated in  [[$:/sib/Templates/Topical/JournalPersonPlaceExplorer]] and it is automatically included in all journal tiddlers by the tiddler [[$:/sib/Templates/Automatic/JournalNavigation]]. 
+**Removing the tag "Journal" cleared it from the Journal tiddlers 
+* I may think about modifying the [[JournalPersonPlaceExplorer]] into a more useful (to me) table to include in every journal entry (perhaps ''Cards'' created or ''Sources'' added?)
+* Started to work on making the site accessible from outside the local network. Basically I need a [[domain name|Get a Domain name]], a [[reverse proxy server|Install reverse proxy server]], and [[port forwarding|Enable port forwarding]].
+** Then I need to worry about access and using passwords, etc

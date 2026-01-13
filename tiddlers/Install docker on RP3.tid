@@ -1,0 +1,10 @@
+created: 20260109231305816
+modified: 20260112192927240
+project: [[CZK improvements needed]]
+tags: Task [[CZK improvements needed]]
+taskstatus: 0
+title: Install docker on RP3
+type: text/vnd.tiddlywiki
+
+
+<$checkbox field="taskstatus" checked="Done" unchecked="0" default="0"> Done?</$checkbox>

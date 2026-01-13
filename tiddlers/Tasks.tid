@@ -1,5 +1,5 @@
 created: 20260103170701779
-modified: 20260107054333965
+modified: 20260112192754287
 tags: Meta
 tbl-add-records: 
 tbl-anything: 
@@ -20,7 +20,7 @@ tbl-expand:
 tbl-filter: [tag[Task]]
 tbl-limit: 9999999
 tbl-mode: normal
-tbl-page-marker: Add buttons to create basic types tiddlers
+tbl-page-marker: SuperConcrete notes to import
 tbl-show-caption: true
 tbl-show-colgroup: false
 tbl-show-edit: true
@@ -28,8 +28,8 @@ tbl-show-footer: false
 tbl-show-header: true
 tbl-show-mode: true
 tbl-show-pagination: auto
-tbl-sort-by: taskstatus
-tbl-sort-negate: true
+tbl-sort-by: project
+tbl-sort-negate: false
 tbl-sort-type: nsort
 tbl-style-colgroup: 
 tbl-style-container: 

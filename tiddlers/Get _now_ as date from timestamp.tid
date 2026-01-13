@@ -1,0 +1,11 @@
+created: 20260109224843241
+modified: 20260109225304159
+tags: Tool
+title: Get "now" as date from timestamp
+type: text/vnd.tiddlywiki
+
+
+
+\function now-timestamp() [<now [UTC]YYYY0MM0DD0hh0mm0ssXXX>]
+
+<<now-timestamp>>

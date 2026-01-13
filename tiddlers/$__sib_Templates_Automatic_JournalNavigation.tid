@@ -1,9 +1,9 @@
 created: 20230405164752085
 creator: soren
 description: Show the previous and next journal entries.
-modified: 20230822195423771
+modified: 20260109181832051
 modifier: soren
-tags: $:/tags/ViewTemplate
+tags: 
 title: $:/sib/Templates/Automatic/JournalNavigation
 transcludedin: All tiddlers tagged <<tag Journal>>.
 type: text/vnd.tiddlywiki

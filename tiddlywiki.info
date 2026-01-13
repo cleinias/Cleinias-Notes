@@ -12,7 +12,7 @@
         "tiddlywiki/markdown-legacy",
         "tiddlywiki/filesystem",
         "tiddlywiki/tiddlyweb"
-    ],
+     ],
     "themes": [
         "tiddlywiki/snowwhite",
         "tiddlywiki/vanilla"
