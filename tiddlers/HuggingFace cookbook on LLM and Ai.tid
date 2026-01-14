@@ -1,0 +1,7 @@
+created: 20260114173407943
+modified: 20260114173907275
+tags: Card
+title: HuggingFace cookbook on LLM and Ai
+type: text/vnd.tiddlywiki
+
+This collections of recipes on the "AI cookbook" on the [[Hugging Face]] site, that has a few solutions for building local [[RAG]] systems (where RAG stands for Retrieval Augmented Generation). See this one for instance: [[Building A RAG Ebook “Librarian” Using LlamaIndex -|https://huggingface.co/learn/cookbook/en/rag_llamaindex_librarian]]

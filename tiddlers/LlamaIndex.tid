@@ -1,0 +1,11 @@
+created: 20260114165347433
+modified: 20260114170947708
+tags: Card
+title: LlamaIndex
+type: text/vnd.tiddlywiki
+
+A rather extensive framework used to orchestrate the composition of LLM tools. Definition from the rather accurate [[description on GeeksforGeeks|https://www.geeksforgeeks.org/machine-learning/what-is-llamaindex/]]:
+
+//LlamaIndex is a flexible, open-source data orchestration framework designed to integrate private, domain-specific data with public data seamlessly for building advanced applications using Large Language Models (LLMs). It simplifies the processes of data ingestion, flexible indexing and intelligent querying hence helping developers and enterprises to create AI applications that are both context-aware and efficient. By adding useful external information to LLMs, it helps to unlock the full potential of generative AI for real-world use cases.//
+
+Quite powerful, need to be used from within python (for instance). Look [[here|https://www.llamaindex.ai/llamaindex]] for details. The tool is free, while the solutions the company has built on top of it (LlamaCloud) are far from it.

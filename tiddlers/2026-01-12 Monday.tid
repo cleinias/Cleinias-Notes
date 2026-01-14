@@ -1,8 +1,30 @@
 created: 20260113052804121
-modified: 20260113052853655
+modified: 20260114173418250
 tags: Journal
 title: 2026-01-12 Monday
 type: text/vnd.tiddlywiki
 
 !!Work Done
 Another day with no work done, thanks to allergies and allergy-countering meds making me sleepy all day (Clearasil)
+
+!! Varia
+Being unable to do any real work (even playing the recorder was a big task, and not just breathing, but keeping the mental focus was also hard), I tried to do something silly:
+
+*	I needed a recipe for kale and I though it would be nice to have a global index to the two hundreds or so cookbooks I have. Seems like perfect job for some AI tool. So I tried to import the  cookbooks into Google NoteLM and have it do the indexing. It was a total failure. Here are the issues:
+
+** First I had to convert all books to pdf format, since Notes LM does not read epub or similar formats. Luckily that was easy in Calibre
+** Then I created a new NotesLM notebook and imported the pdfs.
+***  Here I encountered the forst issues: there is a hard limit of 50 texts, before you enter the paid tiers. No matter, I uploaded 50.
+** Then I queried the database with a simple question: "give me a list of kales recipes"
+*** And here was the total fail: I got back generic info about kale not coming form the cookbooks, and a very short list of //''summaries''// of possible recipes, with no real recipe included and no source listed. Completely useless.
+* So I tried somethiing different: I start looking around for the posisbility of having a local LLM model/system. And sure enough, there are plenty options, mostly being based around the tool [[Ollama]] which acts as a kind of interface/loader to many freely available models. 
+** So of course it was a black hole...
+** In brief, I discovered a few options, like:
+*** {{HuggingFace cookbook on LLM and Ai}}. 
+*** {{Courses on LLM}}
+*** I also found a simpler recipe that uses Ollama in conjunction with a different, even higher level interface, called [[Open Web UI|https://docs.openwebui.com/]], which I am now installing. I am following a simple tutorial on [[Free Code Camp|https://www.freecodecamp.org/news/run-an-llm-locally-to-interact-with-your-documents/]] to build the system.
+** Tomorrow the results...
+
+*** Well, it is technically tomorrow (1 am), and I have a first results. I uploaded 12 books, all written by Ottolenghi, downloaded the [[Gemma3]] LLM model with Ollama, ahd the books chunked with [[nomic-embed-text]] (as per the suggesstions in the Free Code camp tutorial), and then asked for "Kale recipes"
+*** The answer was more satisfactory than with Google NotebookLM. It found two, gave me the page references, and even provided direct links to the file with the correct page. It was just quite slow.
+*** But was the result correct? How to check quickly?

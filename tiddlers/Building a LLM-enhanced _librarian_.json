@@ -1,0 +1,13 @@
+[
+    {
+        "created": "20260114172351421",
+        "text": "A still very vaguely definied personal-use project that would allow querying a book-based knowledge base with NL unstructured questions.\n\nA preliminary list of resources:\n\n*from the [[HuggingFace AI Cookbook]], how to build a [[LLM, RAG based  \"librarian\"|https://huggingface.co/learn/cookbook/en/rag_llamaindex_librarian]].\n\n* [[my note on a preliminary investigation|A brief note on RAG and LLM-powered document searches]], and the links therein.\n* A very comprehensive, still work-in-progress [[book|https://mbrenndoerfer.com/books/language-ai-handbook#table-of-contents]] by Michael Brenndoerfer on AI approach to language processing.\n* {{HuggingFace cookbook on LLM and Ai}}\n*{{Courses on LLM}}\n",
+        "title": "Building a LLM-enhanced \"librarian\"",
+        "tags": "Project",
+        "modified": "20260114173650089",
+        "type": "text/vnd.tiddlywiki",
+        "description": "How to build a tool that would do deep unstructured searches on a collection of books ",
+        "es": "",
+        "source": ""
+    }
+]

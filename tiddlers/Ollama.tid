@@ -1,0 +1,7 @@
+created: 20260114170234297
+modified: 20260114170345442
+tags: Source
+title: Ollama
+type: text/vnd.tiddlywiki
+
+A tool that allows quick //''local''// access to a wide variety of LLM and embedding generation tools. Details [[here|https://ollama.com/]]. Installed on my desktop.

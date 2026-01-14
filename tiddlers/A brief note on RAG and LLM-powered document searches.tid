@@ -1,0 +1,21 @@
+created: 20260114161359886
+description: 
+es: 
+modified: 20260114164743612
+source: 
+tags: Card
+title: A brief note on RAG and LLM-powered document searches
+type: text/vnd.tiddlywiki
+
+As noted in the journal entry of [[last Sunday|2026-01-11 Sunday]], I  experimented using [[RAG|RAG]] tools to exhaustive search a relatively large corpus of text (200 cookbooks from my collection). I used [[OpenWebUi]], [[Ollama]],  and a few tools (an LLM model and an embedding model) recommended in a rather exhaustive blog post found on FreeCode camp. 
+
+The results were not impressive at all. Indeed, I could not get any querey returning more than three recipes on a specific, simple  ingredient ("Kale") from the 200 books in the knowledge base. So I went back to work to find out why.
+
+In fact I spent a whole day [I was too sick to do any real work of my own] playing with the results and looking more deeply into the tools available and learning more about [[RAG|Rag]]. I even posted a query on the r/RAG reddit subgroup. And here is what I learned:
+
+* RAG is most likely //NOT// the right tool for the kind of exhaustive searches I had in mind //because// its main goal is to ''select'' the //few most relevant//  documents (represented by its //k// parameter) and to use those as the context for the LLM-powered search. It is not designed for exhustive searches. It will never get you ALL recipes, only the most relevant ones (for some definition of mos relevant).
+* Other approaches may be better suited, and a hybrid approach even better
+* Among the other approaches are:
+**Classic keyword search, best represtend by the [[BM25]] family of algorithm (basically a keyword-based approach that corrects for text length and relative frequency)
+** Semantic search, which I am not yet completely clear about, since it seems to rely on the application of a similarity function on vector embeddings, so in principle is very similar to the RAG approach.
+* I also learned that OpenWebUi does Rag by default, so it is not the best tool for aopproaches not using it. However, other tools exist which may be relatively easily put together with a few lines of code, such as LlamaIndex, for instance, and LangChain. Haven't really looked into those, though.
